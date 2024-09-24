@@ -1,0 +1,46 @@
+{
+  "name": "VanTransition",
+  "props": {
+    "name": {
+      "description": "动画类型",
+      "description_zh": "动画类型",
+      "default": "fade",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "show": {
+      "description": "是否展示组件",
+      "description_zh": "是否展示组件",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "duration": {
+      "description": "动画时长，单位为毫秒",
+      "description_zh": "动画时长，单位为毫秒",
+      "default": "300",
+      "value": "",
+      "type": "number | object",
+      "required": false,
+      "version": ""
+    },
+    "custom-style": {
+      "description": "自定义样式",
+      "description_zh": "自定义样式",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/transition",
+  "link_zh": "https://vant.pro/vant-weapp/#/transition",
+  "typeDetail": {},
+  "suggestions": [],
+  "filename": "Transition"
+}

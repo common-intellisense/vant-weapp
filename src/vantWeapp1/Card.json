@@ -1,0 +1,184 @@
+{
+  "name": "VanCard",
+  "props": {
+    "thumb": {
+      "description": "左侧图片",
+      "description_zh": "左侧图片",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "thumb-mode": {
+      "description": "左侧图片裁剪、缩放的模式，可选值参考小程序 image 组件 mode 属性值",
+      "description_zh": "左侧图片裁剪、缩放的模式，可选值参考小程序 image 组件 mode 属性值",
+      "default": "aspectFit",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "title": {
+      "description": "标题",
+      "description_zh": "标题",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "desc": {
+      "description": "描述",
+      "description_zh": "描述",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "tag": {
+      "description": "标签",
+      "description_zh": "标签",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "num": {
+      "description": "商品数量",
+      "description_zh": "商品数量",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "price": {
+      "description": "商品价格",
+      "description_zh": "商品价格",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "origin-price": {
+      "description": "商品划线原价",
+      "description_zh": "商品划线原价",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "centered": {
+      "description": "内容是否垂直居中",
+      "description_zh": "内容是否垂直居中",
+      "default": "false",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "currency": {
+      "description": "货币符号",
+      "description_zh": "货币符号",
+      "default": "¥",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "thumb-link": {
+      "description": "点击左侧图片后跳转的链接地址",
+      "description_zh": "点击左侧图片后跳转的链接地址",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "link-type": {
+      "description": "链接跳转类型，可选值为 redirectTo switchTab reLaunch",
+      "description_zh": "链接跳转类型，可选值为 redirectTo switchTab reLaunch",
+      "default": "navigateTo",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "lazy-load": {
+      "description": "是否开启图片懒加载",
+      "description_zh": "是否开启图片懒加载",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/card",
+  "link_zh": "https://vant.pro/vant-weapp/#/card",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "title",
+      "description": "自定义标题栏，如果设置了title属性则不生效",
+      "description_zh": "自定义标题栏，如果设置了title属性则不生效"
+    },
+    {
+      "name": "desc",
+      "description": "自定义描述栏，如果设置了desc属性则不生效",
+      "description_zh": "自定义描述栏，如果设置了desc属性则不生效"
+    },
+    {
+      "name": "num",
+      "description": "自定义数量",
+      "description_zh": "自定义数量"
+    },
+    {
+      "name": "price",
+      "description": "自定义价格",
+      "description_zh": "自定义价格"
+    },
+    {
+      "name": "origin-price",
+      "description": "自定义商品原价，如果设置了origin-price属性则不生效",
+      "description_zh": "自定义商品原价，如果设置了origin-price属性则不生效"
+    },
+    {
+      "name": "price-top",
+      "description": "自定义价格上方区域",
+      "description_zh": "自定义价格上方区域"
+    },
+    {
+      "name": "bottom",
+      "description": "自定义价格下方区域",
+      "description_zh": "自定义价格下方区域"
+    },
+    {
+      "name": "thumb",
+      "description": "自定义图片，如果设置了thumb属性则不生效",
+      "description_zh": "自定义图片，如果设置了thumb属性则不生效"
+    },
+    {
+      "name": "tag",
+      "description": "自定义图片角标，如果设置了tag属性则不生效",
+      "description_zh": "自定义图片角标，如果设置了tag属性则不生效"
+    },
+    {
+      "name": "tags",
+      "description": "自定义描述下方标签区域",
+      "description_zh": "自定义描述下方标签区域"
+    },
+    {
+      "name": "footer",
+      "description": "自定义右下角内容",
+      "description_zh": "自定义右下角内容"
+    }
+  ],
+  "suggestions": [],
+  "filename": "Card"
+}

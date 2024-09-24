@@ -1,0 +1,62 @@
+{
+  "name": "VanLoading",
+  "props": {
+    "color": {
+      "description": "颜色",
+      "description_zh": "颜色",
+      "default": "#c9c9c9",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "type": {
+      "description": "类型，可选值为 spinner",
+      "description_zh": "类型，可选值为 spinner",
+      "default": "circular",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "size": {
+      "description": "加载图标大小，默认单位为 px",
+      "description_zh": "加载图标大小，默认单位为 px",
+      "default": "30px",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "text-size": {
+      "description": "文字大小，默认单位为为 px",
+      "description_zh": "文字大小，默认单位为为 px",
+      "default": "14px",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": "v1.0.0"
+    },
+    "vertical": {
+      "description": "是否垂直排列图标和文字内容",
+      "description_zh": "是否垂直排列图标和文字内容",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": "v1.0.0"
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/loading",
+  "link_zh": "https://vant.pro/vant-weapp/#/loading",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "default",
+      "description": "加载文案",
+      "description_zh": "加载文案"
+    }
+  ],
+  "suggestions": [],
+  "filename": "Loading"
+}

@@ -1,0 +1,79 @@
+{
+  "name": "VanTab",
+  "props": {
+    "name": {
+      "description": "标签名称，作为匹配的标识符",
+      "description_zh": "标签名称，作为匹配的标识符",
+      "default": "标签的索引值",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "title": {
+      "description": "标题",
+      "description_zh": "标题",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "disabled": {
+      "description": "是否禁用标签",
+      "description_zh": "是否禁用标签",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "dot": {
+      "description": "是否显示小红点",
+      "description_zh": "是否显示小红点",
+      "default": "-",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "info": {
+      "description": "图标右上角提示信息",
+      "description_zh": "图标右上角提示信息",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "title-style": {
+      "description": "自定义标题样式",
+      "description_zh": "自定义标题样式",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/tab",
+  "link_zh": "https://vant.pro/vant-weapp/#/tab",
+  "typeDetail": {},
+  "methods": [
+    {
+      "name": "resize",
+      "description": "-",
+      "description_zh": "-",
+      "params": ""
+    }
+  ],
+  "slots": [
+    {
+      "name": "default",
+      "description": "标签页内容",
+      "description_zh": "标签页内容"
+    }
+  ],
+  "suggestions": [],
+  "filename": "Tab"
+}

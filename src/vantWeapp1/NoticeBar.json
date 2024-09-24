@@ -1,0 +1,117 @@
+{
+  "name": "VanNoticeBar",
+  "props": {
+    "mode": {
+      "description": "通知栏模式，可选值为 closeable link",
+      "description_zh": "通知栏模式，可选值为 closeable link",
+      "default": "''",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "text": {
+      "description": "通知文本内容",
+      "description_zh": "通知文本内容",
+      "default": "''",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "color": {
+      "description": "通知文本颜色",
+      "description_zh": "通知文本颜色",
+      "default": "#ed6a0c",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "background": {
+      "description": "滚动条背景",
+      "description_zh": "滚动条背景",
+      "default": "#fffbe8",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "left-icon": {
+      "description": "左侧图标名称或图片链接",
+      "description_zh": "左侧图标名称或图片链接",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "delay": {
+      "description": "动画延迟时间 (ms)",
+      "description_zh": "动画延迟时间 (ms)",
+      "default": "1",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "speed": {
+      "description": "滚动速率 (px/s)",
+      "description_zh": "滚动速率 (px/s)",
+      "default": "60",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "scrollable": {
+      "description": "是否开启滚动播放，内容长度溢出时默认开启",
+      "description_zh": "是否开启滚动播放，内容长度溢出时默认开启",
+      "default": "-",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "wrapable": {
+      "description": "是否开启文本换行，只在禁用滚动时生效",
+      "description_zh": "是否开启文本换行，只在禁用滚动时生效",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "open-type": {
+      "description": "微信开放能力",
+      "description_zh": "微信开放能力",
+      "default": "navigate",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/notice-bar",
+  "link_zh": "https://vant.pro/vant-weapp/#/notice-bar",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "default",
+      "description": "通知文本内容，仅在 text 属性为空时有效",
+      "description_zh": "通知文本内容，仅在 text 属性为空时有效"
+    },
+    {
+      "name": "left-icon",
+      "description": "自定义左侧图标",
+      "description_zh": "自定义左侧图标"
+    },
+    {
+      "name": "right-icon",
+      "description": "自定义右侧图标",
+      "description_zh": "自定义右侧图标"
+    }
+  ],
+  "suggestions": [],
+  "filename": "NoticeBar"
+}

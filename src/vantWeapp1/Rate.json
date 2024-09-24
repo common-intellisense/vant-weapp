@@ -1,0 +1,136 @@
+{
+  "name": "VanRate",
+  "props": {
+    "name": {
+      "description": "在表单内提交时的标识符",
+      "description_zh": "在表单内提交时的标识符",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "value": {
+      "description": "当前分值",
+      "description_zh": "当前分值",
+      "default": "-",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "count": {
+      "description": "图标总数",
+      "description_zh": "图标总数",
+      "default": "5",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "size": {
+      "description": "图标大小，默认单位为 px",
+      "description_zh": "图标大小，默认单位为 px",
+      "default": "20px",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "gutter": {
+      "description": "图标间距，默认单位为 px",
+      "description_zh": "图标间距，默认单位为 px",
+      "default": "4px",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "color": {
+      "description": "选中时的颜色",
+      "description_zh": "选中时的颜色",
+      "default": "#ffd21e",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "void-color": {
+      "description": "未选中时的颜色",
+      "description_zh": "未选中时的颜色",
+      "default": "#c7c7c7",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "icon": {
+      "description": "选中时的图标名称或图片链接，可选值见 Icon 组件",
+      "description_zh": "选中时的图标名称或图片链接，可选值见 Icon 组件",
+      "default": "star",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "void-icon": {
+      "description": "未选中时的图标名称或图片链接，可选值见 Icon 组件",
+      "description_zh": "未选中时的图标名称或图片链接，可选值见 Icon 组件",
+      "default": "star-o",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "allow-half": {
+      "description": "是否允许半选",
+      "description_zh": "是否允许半选",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "readonly": {
+      "description": "是否为只读状态",
+      "description_zh": "是否为只读状态",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "disabled": {
+      "description": "是否禁用评分",
+      "description_zh": "是否禁用评分",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "disabled-color": {
+      "description": "禁用时的颜色",
+      "description_zh": "禁用时的颜色",
+      "default": "#bdbdbd",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "touchable": {
+      "description": "是否可以通过滑动手势选择评分",
+      "description_zh": "是否可以通过滑动手势选择评分",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/rate",
+  "link_zh": "https://vant.pro/vant-weapp/#/rate",
+  "typeDetail": {},
+  "suggestions": [],
+  "filename": "Rate"
+}

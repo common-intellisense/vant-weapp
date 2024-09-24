@@ -1,0 +1,193 @@
+{
+  "name": "VanStepper",
+  "props": {
+    "name": {
+      "description": "在表单内提交时的标识符",
+      "description_zh": "在表单内提交时的标识符",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "value": {
+      "description": "输入值",
+      "description_zh": "输入值",
+      "default": "最小值",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "min": {
+      "description": "最小值",
+      "description_zh": "最小值",
+      "default": "1",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "max": {
+      "description": "最大值",
+      "description_zh": "最大值",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "step": {
+      "description": "步长",
+      "description_zh": "步长",
+      "default": "1",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "integer": {
+      "description": "是否只允许输入整数",
+      "description_zh": "是否只允许输入整数",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "disabled": {
+      "description": "是否禁用",
+      "description_zh": "是否禁用",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "disable-input": {
+      "description": "是否禁用输入框",
+      "description_zh": "是否禁用输入框",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "async-change": {
+      "description": "是否开启异步变更，开启后需要手动控制输入值",
+      "description_zh": "是否开启异步变更，开启后需要手动控制输入值",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "input-width": {
+      "description": "输入框宽度，默认单位为 px",
+      "description_zh": "输入框宽度，默认单位为 px",
+      "default": "32px",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "button-size": {
+      "description": "按钮大小，默认单位为 px，输入框高度会和按钮大小保持一致",
+      "description_zh": "按钮大小，默认单位为 px，输入框高度会和按钮大小保持一致",
+      "default": "28px",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "show-plus": {
+      "description": "是否显示增加按钮",
+      "description_zh": "是否显示增加按钮",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "show-minus": {
+      "description": "是否显示减少按钮",
+      "description_zh": "是否显示减少按钮",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "decimal-length": {
+      "description": "固定显示的小数位数",
+      "description_zh": "固定显示的小数位数",
+      "default": "-",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "theme": {
+      "description": "样式风格，可选值为 round",
+      "description_zh": "样式风格，可选值为 round",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "disable-plus": {
+      "description": "是否禁用增加按钮",
+      "description_zh": "是否禁用增加按钮",
+      "default": "-",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "disable-minus": {
+      "description": "是否禁用减少按钮",
+      "description_zh": "是否禁用减少按钮",
+      "default": "-",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "long-press": {
+      "description": "是否开启长按手势",
+      "description_zh": "是否开启长按手势",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "always-embed": {
+      "description": "强制 input 处于同层状态，默认 focus 时 input 会切到非同层状态 (仅在 iOS 下生效)",
+      "description_zh": "强制 input 处于同层状态，默认 focus 时 input 会切到非同层状态 (仅在 iOS 下生效)",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": "v1.9.3"
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/stepper",
+  "link_zh": "https://vant.pro/vant-weapp/#/stepper",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "plus",
+      "description": "加号按钮",
+      "description_zh": "加号按钮"
+    },
+    {
+      "name": "minus",
+      "description": "减号按钮",
+      "description_zh": "减号按钮"
+    }
+  ],
+  "suggestions": [],
+  "filename": "Stepper"
+}

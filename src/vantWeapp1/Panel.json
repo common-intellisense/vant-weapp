@@ -1,0 +1,54 @@
+{
+  "name": "VanPanel",
+  "props": {
+    "title": {
+      "description": "标题",
+      "description_zh": "标题",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "desc": {
+      "description": "描述",
+      "description_zh": "描述",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "status": {
+      "description": "状态",
+      "description_zh": "状态",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/panel",
+  "link_zh": "https://vant.pro/vant-weapp/#/panel",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "default",
+      "description": "自定义内容",
+      "description_zh": "自定义内容"
+    },
+    {
+      "name": "header",
+      "description": "自定义 header，如果设置了title、desc、status属性则不生效",
+      "description_zh": "自定义 header，如果设置了title、desc、status属性则不生效"
+    },
+    {
+      "name": "footer",
+      "description": "自定义 footer",
+      "description_zh": "自定义 footer"
+    }
+  ],
+  "suggestions": [],
+  "filename": "Panel"
+}

@@ -1,0 +1,192 @@
+{
+  "name": "VanCalendar",
+  "props": {
+    "type": {
+      "description": "选择类型:single表示选择单个日期，multiple表示选择多个日期，range表示选择日期区间",
+      "description_zh": "选择类型:single表示选择单个日期，multiple表示选择多个日期，range表示选择日期区间",
+      "default": "single",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "title": {
+      "description": "日历标题",
+      "description_zh": "日历标题",
+      "default": "日期选择",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "color": {
+      "description": "主题色，对底部按钮和选中日期生效",
+      "description_zh": "主题色，对底部按钮和选中日期生效",
+      "default": "#ee0a24",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "min-date": {
+      "description": "可选择的最小日期",
+      "description_zh": "可选择的最小日期",
+      "default": "当前日期",
+      "value": "",
+      "type": "timestamp",
+      "required": false,
+      "version": ""
+    },
+    "max-date": {
+      "description": "可选择的最大日期",
+      "description_zh": "可选择的最大日期",
+      "default": "当前日期的六个月后",
+      "value": "",
+      "type": "timestamp",
+      "required": false,
+      "version": ""
+    },
+    "default-date": {
+      "description": "默认选中的日期，type为multiple或range时为数组，传入 null 表示默认不选择",
+      "description_zh": "默认选中的日期，type为multiple或range时为数组，传入 null 表示默认不选择",
+      "default": "今天",
+      "value": "",
+      "type": "timestamp | timestamp[] | null",
+      "required": false,
+      "version": "v1.10.21"
+    },
+    "row-height": {
+      "description": "日期行高",
+      "description_zh": "日期行高",
+      "default": "64",
+      "value": "",
+      "type": "number | string",
+      "required": false,
+      "version": ""
+    },
+    "formatter": {
+      "description": "日期格式化函数",
+      "description_zh": "日期格式化函数",
+      "default": "-",
+      "value": "",
+      "type": "(day: Day) => Day",
+      "required": false,
+      "version": ""
+    },
+    "poppable": {
+      "description": "是否以弹层的形式展示日历",
+      "description_zh": "是否以弹层的形式展示日历",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "show-mark": {
+      "description": "是否显示月份背景水印",
+      "description_zh": "是否显示月份背景水印",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "show-title": {
+      "description": "是否展示日历标题",
+      "description_zh": "是否展示日历标题",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "show-subtitle": {
+      "description": "是否展示日历副标题（年月）",
+      "description_zh": "是否展示日历副标题（年月）",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "show-confirm": {
+      "description": "是否展示确认按钮",
+      "description_zh": "是否展示确认按钮",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "confirm-text": {
+      "description": "确认按钮的文字",
+      "description_zh": "确认按钮的文字",
+      "default": "确定",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "confirm-disabled-text": {
+      "description": "确认按钮处于禁用状态时的文字",
+      "description_zh": "确认按钮处于禁用状态时的文字",
+      "default": "确定",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "first-day-of-week": {
+      "description": "设置周起始日",
+      "description_zh": "设置周起始日",
+      "default": "0",
+      "value": "",
+      "type": "0~6",
+      "required": false,
+      "version": ""
+    },
+    "readonly": {
+      "description": "是否为只读状态，只读状态下不能选择日期",
+      "description_zh": "是否为只读状态，只读状态下不能选择日期",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": "v1.9.1"
+    },
+    "root-portal": {
+      "description": "是否从页面子树中脱离出来，用于解决各种 fixed 失效问题，微信基础库 >= 2.25.2 ",
+      "description_zh": "是否从页面子树中脱离出来，用于解决各种 fixed 失效问题，微信基础库 >= 2.25.2 ",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": "v1.11.3"
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/calendar",
+  "link_zh": "https://vant.pro/vant-weapp/#/calendar",
+  "typeDetail": {},
+  "methods": [
+    {
+      "name": "reset",
+      "description": "重置选中的日期到默认值",
+      "description_zh": "重置选中的日期到默认值",
+      "params": ""
+    }
+  ],
+  "slots": [
+    {
+      "name": "title",
+      "description": "自定义标题",
+      "description_zh": "自定义标题"
+    },
+    {
+      "name": "footer",
+      "description": "自定义底部区域内容",
+      "description_zh": "自定义底部区域内容"
+    }
+  ],
+  "suggestions": [],
+  "filename": "Calendar"
+}

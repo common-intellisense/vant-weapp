@@ -1,0 +1,27 @@
+{
+  "name": "VanSidebar",
+  "props": {
+    "activeKey": {
+      "description": "选中项的索引",
+      "description_zh": "选中项的索引",
+      "default": "0",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "change": {
+      "description": "切换徽章时触发",
+      "description_zh": "切换徽章时触发",
+      "default": "",
+      "value": "",
+      "type": "当前选中徽章的索引",
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/sidebar",
+  "link_zh": "https://vant.pro/vant-weapp/#/sidebar",
+  "typeDetail": {},
+  "suggestions": [],
+  "filename": "Sidebar"
+}

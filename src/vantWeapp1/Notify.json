@@ -1,0 +1,16 @@
+{
+  "name": "VanNotify",
+  "link": "https://vant.pro/vant-weapp/#/notify",
+  "link_zh": "https://vant.pro/vant-weapp/#/notify",
+  "typeDetail": {},
+  "methods": [
+    {
+      "name": "clear",
+      "description": "关闭提示",
+      "description_zh": "关闭提示",
+      "params": ""
+    }
+  ],
+  "suggestions": [],
+  "filename": "Notify"
+}

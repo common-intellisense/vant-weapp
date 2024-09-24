@@ -1,0 +1,75 @@
+{
+  "name": "VanCountDown",
+  "props": {
+    "time": {
+      "description": "倒计时时长，单位毫秒",
+      "description_zh": "倒计时时长，单位毫秒",
+      "default": "-",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "format": {
+      "description": "时间格式，DD-日，HH-时，mm-分，ss-秒，SSS-毫秒",
+      "description_zh": "时间格式，DD-日，HH-时，mm-分，ss-秒，SSS-毫秒",
+      "default": "HH:mm:ss",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "auto-start": {
+      "description": "是否自动开始倒计时",
+      "description_zh": "是否自动开始倒计时",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "millisecond": {
+      "description": "是否开启毫秒级渲染",
+      "description_zh": "是否开启毫秒级渲染",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "use-slot": {
+      "description": "是否使用自定义样式插槽",
+      "description_zh": "是否使用自定义样式插槽",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/count-down",
+  "link_zh": "https://vant.pro/vant-weapp/#/count-down",
+  "typeDetail": {},
+  "methods": [
+    {
+      "name": "start",
+      "description": "-",
+      "description_zh": "-",
+      "params": ""
+    },
+    {
+      "name": "pause",
+      "description": "-",
+      "description_zh": "-",
+      "params": ""
+    },
+    {
+      "name": "reset",
+      "description": "-",
+      "description_zh": "-",
+      "params": ""
+    }
+  ],
+  "suggestions": [],
+  "filename": "CountDown"
+}

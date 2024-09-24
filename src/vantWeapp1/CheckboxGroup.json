@@ -1,0 +1,65 @@
+{
+  "name": "VanCheckboxGroup",
+  "props": {
+    "name": {
+      "description": "在表单内提交时的标识符",
+      "description_zh": "在表单内提交时的标识符",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "value": {
+      "description": "所有选中项的 name",
+      "description_zh": "所有选中项的 name",
+      "default": "-",
+      "value": "",
+      "type": "Array",
+      "required": false,
+      "version": ""
+    },
+    "disabled": {
+      "description": "是否禁用所有单选框",
+      "description_zh": "是否禁用所有单选框",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "max": {
+      "description": "设置最大可选数",
+      "description_zh": "设置最大可选数",
+      "default": "0（无限制）",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "direction": {
+      "description": "排列方向，可选值为 horizontal",
+      "description_zh": "排列方向，可选值为 horizontal",
+      "default": "vertical",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": "v1.7.0"
+    },
+    "bind:change": {
+      "description": "当绑定值变化时触发的事件",
+      "description_zh": "当绑定值变化时触发的事件",
+      "default": "",
+      "value": "",
+      "type": "当前组件的值",
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/checkbox",
+  "link_zh": "https://vant.pro/vant-weapp/#/checkbox",
+  "typeDetail": {},
+  "suggestions": [
+    "van-checkbox"
+  ],
+  "filename": "CheckboxGroup"
+}

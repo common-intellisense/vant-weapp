@@ -1,0 +1,107 @@
+{
+  "name": "VanCircle",
+  "props": {
+    "value": {
+      "description": "目标进度",
+      "description_zh": "目标进度",
+      "default": "0",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "type": {
+      "description": "指定 canvas 类型，可选值为 2d",
+      "description_zh": "指定 canvas 类型，可选值为 2d",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "size": {
+      "description": "圆环直径，默认单位为 px",
+      "description_zh": "圆环直径，默认单位为 px",
+      "default": "100",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "color": {
+      "description": "进度条颜色，传入对象格式可以定义渐变色",
+      "description_zh": "进度条颜色，传入对象格式可以定义渐变色",
+      "default": "#1989fa",
+      "value": "",
+      "type": "string | object",
+      "required": false,
+      "version": ""
+    },
+    "layer-color": {
+      "description": "轨道颜色",
+      "description_zh": "轨道颜色",
+      "default": "#fff",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "fill": {
+      "description": "填充颜色",
+      "description_zh": "填充颜色",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "speed": {
+      "description": "动画速度（单位为 value/s）",
+      "description_zh": "动画速度（单位为 value/s）",
+      "default": "50",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "text": {
+      "description": "文字",
+      "description_zh": "文字",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "stroke-width": {
+      "description": "进度条宽度",
+      "description_zh": "进度条宽度",
+      "default": "4",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "clockwise": {
+      "description": "是否顺时针增加",
+      "description_zh": "是否顺时针增加",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/circle",
+  "link_zh": "https://vant.pro/vant-weapp/#/circle",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "default",
+      "description": "自定义文字内容，如果设置了fill，插槽内容会被原生组件覆盖",
+      "description_zh": "自定义文字内容，如果设置了fill，插槽内容会被原生组件覆盖"
+    }
+  ],
+  "suggestions": [],
+  "filename": "Circle"
+}

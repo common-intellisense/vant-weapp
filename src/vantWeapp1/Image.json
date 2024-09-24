@@ -1,0 +1,148 @@
+{
+  "name": "VanImage",
+  "props": {
+    "src": {
+      "description": "图片链接",
+      "description_zh": "图片链接",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "fit": {
+      "description": "图片填充模式",
+      "description_zh": "图片填充模式",
+      "default": "fill",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "alt": {
+      "description": "替代文本",
+      "description_zh": "替代文本",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "width": {
+      "description": "宽度，默认单位为px",
+      "description_zh": "宽度，默认单位为px",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "height": {
+      "description": "高度，默认单位为px",
+      "description_zh": "高度，默认单位为px",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "radius": {
+      "description": "圆角大小，默认单位为px",
+      "description_zh": "圆角大小，默认单位为px",
+      "default": "0",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "round": {
+      "description": "是否显示为圆形",
+      "description_zh": "是否显示为圆形",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "lazy-load": {
+      "description": "是否懒加载",
+      "description_zh": "是否懒加载",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "webp": {
+      "description": "是否解析 webp 格式",
+      "description_zh": "是否解析 webp 格式",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": "v1.10.11"
+    },
+    "show-error": {
+      "description": "是否展示图片加载失败提示",
+      "description_zh": "是否展示图片加载失败提示",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "show-loading": {
+      "description": "是否展示图片加载中提示",
+      "description_zh": "是否展示图片加载中提示",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "use-error-slot": {
+      "description": "是否使用 error 插槽",
+      "description_zh": "是否使用 error 插槽",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "use-loading-slot": {
+      "description": "是否使用 loading 插槽",
+      "description_zh": "是否使用 loading 插槽",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "show-menu-by-longpress": {
+      "description": "是否开启长按图片显示识别小程序码菜单",
+      "description_zh": "是否开启长按图片显示识别小程序码菜单",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/image",
+  "link_zh": "https://vant.pro/vant-weapp/#/image",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "loading",
+      "description": "自定义加载中的提示内容",
+      "description_zh": "自定义加载中的提示内容"
+    },
+    {
+      "name": "error",
+      "description": "自定义加载失败时的提示内容",
+      "description_zh": "自定义加载失败时的提示内容"
+    }
+  ],
+  "suggestions": [],
+  "filename": "Image"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "VanIndexAnchor",
+  "props": {
+    "use-slot": {
+      "description": "是否使用自定义内容的插槽",
+      "description_zh": "是否使用自定义内容的插槽",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "index": {
+      "description": "索引字符",
+      "description_zh": "索引字符",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/index-bar",
+  "link_zh": "https://vant.pro/vant-weapp/#/index-bar",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "default",
+      "description": "锚点位置显示内容，默认为索引字符",
+      "description_zh": "锚点位置显示内容，默认为索引字符"
+    }
+  ],
+  "suggestions": [],
+  "filename": "IndexAnchor"
+}

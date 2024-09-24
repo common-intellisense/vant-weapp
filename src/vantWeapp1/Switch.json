@@ -1,0 +1,91 @@
+{
+  "name": "VanSwitch",
+  "props": {
+    "name": {
+      "description": "在表单内提交时的标识符",
+      "description_zh": "在表单内提交时的标识符",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "checked": {
+      "description": "开关选中状态",
+      "description_zh": "开关选中状态",
+      "default": "false",
+      "value": "",
+      "type": "any",
+      "required": false,
+      "version": ""
+    },
+    "loading": {
+      "description": "是否为加载状态",
+      "description_zh": "是否为加载状态",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "disabled": {
+      "description": "是否为禁用状态",
+      "description_zh": "是否为禁用状态",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "size": {
+      "description": "开关尺寸",
+      "description_zh": "开关尺寸",
+      "default": "30px",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "active-color": {
+      "description": "打开时的背景色",
+      "description_zh": "打开时的背景色",
+      "default": "#1989fa",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "inactive-color": {
+      "description": "关闭时的背景色",
+      "description_zh": "关闭时的背景色",
+      "default": "#fff",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "active-value": {
+      "description": "打开时的值",
+      "description_zh": "打开时的值",
+      "default": "true",
+      "value": "",
+      "type": "any",
+      "required": false,
+      "version": ""
+    },
+    "inactive-value": {
+      "description": "关闭时的值",
+      "description_zh": "关闭时的值",
+      "default": "false",
+      "value": "",
+      "type": "any",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/switch",
+  "link_zh": "https://vant.pro/vant-weapp/#/switch",
+  "typeDetail": {},
+  "suggestions": [],
+  "filename": "Switch"
+}

@@ -1,0 +1,71 @@
+{
+  "name": "VanTreeSelect",
+  "props": {
+    "items": {
+      "description": "分类显示所需的数据",
+      "description_zh": "分类显示所需的数据",
+      "default": "[]",
+      "value": "",
+      "type": "Array",
+      "required": false,
+      "version": ""
+    },
+    "height": {
+      "description": "高度，默认单位为px",
+      "description_zh": "高度，默认单位为px",
+      "default": "300",
+      "value": "",
+      "type": "number | string",
+      "required": false,
+      "version": ""
+    },
+    "main-active-index": {
+      "description": "左侧选中项的索引",
+      "description_zh": "左侧选中项的索引",
+      "default": "0",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "active-id": {
+      "description": "右侧选中项的 id，支持传入数组",
+      "description_zh": "右侧选中项的 id，支持传入数组",
+      "default": "0",
+      "value": "",
+      "type": "string | number | Array",
+      "required": false,
+      "version": ""
+    },
+    "max": {
+      "description": "右侧项最大选中个数",
+      "description_zh": "右侧项最大选中个数",
+      "default": "Infinity",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "selected-icon": {
+      "description": "自定义右侧栏选中状态的图标",
+      "description_zh": "自定义右侧栏选中状态的图标",
+      "default": "success",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": "v1.5.0"
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/tree-select",
+  "link_zh": "https://vant.pro/vant-weapp/#/tree-select",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "content",
+      "description": "自定义右侧区域内容，如果存在 items，则插入在顶部",
+      "description_zh": "自定义右侧区域内容，如果存在 items，则插入在顶部"
+    }
+  ],
+  "suggestions": [],
+  "filename": "TreeSelect"
+}

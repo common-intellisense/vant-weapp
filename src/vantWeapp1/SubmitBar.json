@@ -1,0 +1,135 @@
+{
+  "name": "VanSubmitBar",
+  "props": {
+    "price": {
+      "description": "价格（单位分）",
+      "description_zh": "价格（单位分）",
+      "default": "-",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "label": {
+      "description": "价格文案",
+      "description_zh": "价格文案",
+      "default": "合计：",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "suffix-label": {
+      "description": "价格右侧文案",
+      "description_zh": "价格右侧文案",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "button-text": {
+      "description": "按钮文字",
+      "description_zh": "按钮文字",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "button-type": {
+      "description": "按钮类型",
+      "description_zh": "按钮类型",
+      "default": "danger",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "tip": {
+      "description": "提示文案",
+      "description_zh": "提示文案",
+      "default": "-",
+      "value": "",
+      "type": "string | boolean",
+      "required": false,
+      "version": ""
+    },
+    "tip-icon": {
+      "description": "图标名称或图片链接，可选值见 Icon 组件",
+      "description_zh": "图标名称或图片链接，可选值见 Icon 组件",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "disabled": {
+      "description": "是否禁用按钮",
+      "description_zh": "是否禁用按钮",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "loading": {
+      "description": "是否显示加载中的按钮",
+      "description_zh": "是否显示加载中的按钮",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "currency": {
+      "description": "货币符号",
+      "description_zh": "货币符号",
+      "default": "¥",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "safe-area-inset-bottom": {
+      "description": "是否为 iPhoneX 留出底部安全距离",
+      "description_zh": "是否为 iPhoneX 留出底部安全距离",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "decimal-length": {
+      "description": "价格小数点后位数",
+      "description_zh": "价格小数点后位数",
+      "default": "2",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/submit-bar",
+  "link_zh": "https://vant.pro/vant-weapp/#/submit-bar",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "default",
+      "description": "自定义订单栏左侧内容",
+      "description_zh": "自定义订单栏左侧内容"
+    },
+    {
+      "name": "top",
+      "description": "自定义订单栏上方内容",
+      "description_zh": "自定义订单栏上方内容"
+    },
+    {
+      "name": "tip",
+      "description": "提示文案中的额外操作和说明",
+      "description_zh": "提示文案中的额外操作和说明"
+    }
+  ],
+  "suggestions": [],
+  "filename": "SubmitBar"
+}

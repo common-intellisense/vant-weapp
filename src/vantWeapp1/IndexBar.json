@@ -1,0 +1,55 @@
+{
+  "name": "VanIndexBar",
+  "props": {
+    "index-list": {
+      "description": "索引字符列表",
+      "description_zh": "索引字符列表",
+      "default": "A-Z",
+      "value": "",
+      "type": "string[] | number[]",
+      "required": false,
+      "version": ""
+    },
+    "z-index": {
+      "description": "z-index 层级",
+      "description_zh": "z-index 层级",
+      "default": "1",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "sticky": {
+      "description": "是否开启锚点自动吸顶",
+      "description_zh": "是否开启锚点自动吸顶",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "sticky-offset-top": {
+      "description": "锚点自动吸顶时与顶部的距离",
+      "description_zh": "锚点自动吸顶时与顶部的距离",
+      "default": "0",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "highlight-color": {
+      "description": "索引字符高亮颜色",
+      "description_zh": "索引字符高亮颜色",
+      "default": "#07c160",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/index-bar",
+  "link_zh": "https://vant.pro/vant-weapp/#/index-bar",
+  "typeDetail": {},
+  "suggestions": [],
+  "filename": "IndexBar"
+}

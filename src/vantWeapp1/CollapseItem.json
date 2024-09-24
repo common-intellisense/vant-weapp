@@ -1,0 +1,127 @@
+{
+  "name": "VanCollapseItem",
+  "props": {
+    "name": {
+      "description": "唯一标识符，默认为索引值",
+      "description_zh": "唯一标识符，默认为索引值",
+      "default": "index",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "title": {
+      "description": "标题栏左侧内容",
+      "description_zh": "标题栏左侧内容",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "size": {
+      "description": "标题栏大小，可选值为large",
+      "description_zh": "标题栏大小，可选值为large",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "icon": {
+      "description": "标题栏左侧图标名称或图片链接，可选值见 Icon 组件",
+      "description_zh": "标题栏左侧图标名称或图片链接，可选值见 Icon 组件",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "value": {
+      "description": "标题栏右侧内容",
+      "description_zh": "标题栏右侧内容",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "label": {
+      "description": "标题栏描述信息",
+      "description_zh": "标题栏描述信息",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "border": {
+      "description": "是否显示内边框",
+      "description_zh": "是否显示内边框",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "is-link": {
+      "description": "是否展示标题栏右侧箭头并开启点击反馈",
+      "description_zh": "是否展示标题栏右侧箭头并开启点击反馈",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "clickable": {
+      "description": "是否开启点击反馈",
+      "description_zh": "是否开启点击反馈",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "disabled": {
+      "description": "是否禁用面板",
+      "description_zh": "是否禁用面板",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/collapse",
+  "link_zh": "https://vant.pro/vant-weapp/#/collapse",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "default",
+      "description": "面板内容",
+      "description_zh": "面板内容"
+    },
+    {
+      "name": "value",
+      "description": "自定义显示内容",
+      "description_zh": "自定义显示内容"
+    },
+    {
+      "name": "icon",
+      "description": "自定义icon",
+      "description_zh": "自定义icon"
+    },
+    {
+      "name": "title",
+      "description": "自定义title",
+      "description_zh": "自定义title"
+    },
+    {
+      "name": "right-icon",
+      "description": "自定义右侧按钮，默认是arrow, 需要将 is-link 设置为 false, 才会生效",
+      "description_zh": "自定义右侧按钮，默认是arrow, 需要将 is-link 设置为 false, 才会生效"
+    }
+  ],
+  "suggestions": [],
+  "filename": "CollapseItem"
+}

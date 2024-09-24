@@ -1,0 +1,117 @@
+{
+  "name": "VanNavBar",
+  "props": {
+    "title": {
+      "description": "标题",
+      "description_zh": "标题",
+      "default": "''",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "left-text": {
+      "description": "左侧文案",
+      "description_zh": "左侧文案",
+      "default": "''",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "right-text": {
+      "description": "右侧文案",
+      "description_zh": "右侧文案",
+      "default": "''",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "left-arrow": {
+      "description": "是否显示左侧箭头",
+      "description_zh": "是否显示左侧箭头",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "fixed": {
+      "description": "是否固定在顶部",
+      "description_zh": "是否固定在顶部",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "placeholder": {
+      "description": "固定在顶部时是否开启占位",
+      "description_zh": "固定在顶部时是否开启占位",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "border": {
+      "description": "是否显示下边框",
+      "description_zh": "是否显示下边框",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "z-index": {
+      "description": "元素 z-index",
+      "description_zh": "元素 z-index",
+      "default": "1",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "custom-style": {
+      "description": "根节点自定义样式",
+      "description_zh": "根节点自定义样式",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "safe-area-inset-top": {
+      "description": "是否留出顶部安全距离（状态栏高度）",
+      "description_zh": "是否留出顶部安全距离（状态栏高度）",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/nav-bar",
+  "link_zh": "https://vant.pro/vant-weapp/#/nav-bar",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "title",
+      "description": "自定义标题",
+      "description_zh": "自定义标题"
+    },
+    {
+      "name": "left",
+      "description": "自定义左侧区域内容",
+      "description_zh": "自定义左侧区域内容"
+    },
+    {
+      "name": "right",
+      "description": "自定义右侧区域内容",
+      "description_zh": "自定义右侧区域内容"
+    }
+  ],
+  "suggestions": [],
+  "filename": "NavBar"
+}

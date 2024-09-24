@@ -1,0 +1,248 @@
+{
+  "name": "VanSearch",
+  "props": {
+    "name": {
+      "description": "在表单内提交时的标识符",
+      "description_zh": "在表单内提交时的标识符",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "label": {
+      "description": "搜索框左侧文本",
+      "description_zh": "搜索框左侧文本",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "shape": {
+      "description": "形状，可选值为 round",
+      "description_zh": "形状，可选值为 round",
+      "default": "square",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "value": {
+      "description": "当前输入的值",
+      "description_zh": "当前输入的值",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "background": {
+      "description": "搜索框背景色",
+      "description_zh": "搜索框背景色",
+      "default": "#f2f2f2",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "show-action": {
+      "description": "是否在搜索框右侧显示取消按钮",
+      "description_zh": "是否在搜索框右侧显示取消按钮",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "action-text": {
+      "description": "取消按钮文字",
+      "description_zh": "取消按钮文字",
+      "default": "取消",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": "v1.0.0"
+    },
+    "focus": {
+      "description": "获取焦点",
+      "description_zh": "获取焦点",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "error": {
+      "description": "是否将输入内容标红",
+      "description_zh": "是否将输入内容标红",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "disabled": {
+      "description": "是否禁用输入框",
+      "description_zh": "是否禁用输入框",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "readonly": {
+      "description": "是否只读",
+      "description_zh": "是否只读",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "clearable": {
+      "description": "是否启用清除控件",
+      "description_zh": "是否启用清除控件",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "clear-trigger": {
+      "description": "显示清除图标的时机，always 表示输入框不为空时展示，focus 表示输入框聚焦且不为空时展示",
+      "description_zh": "显示清除图标的时机，always 表示输入框不为空时展示，focus 表示输入框聚焦且不为空时展示",
+      "default": "focus",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": "v1.8.4"
+    },
+    "clear-icon": {
+      "description": "清除图标名称或图片链接",
+      "description_zh": "清除图标名称或图片链接",
+      "default": "clear",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": "v1.8.4"
+    },
+    "maxlength": {
+      "description": "最大输入长度，设置为 -1 的时候不限制最大长度",
+      "description_zh": "最大输入长度，设置为 -1 的时候不限制最大长度",
+      "default": "-1",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "use-action-slot": {
+      "description": "是否使用 action slot",
+      "description_zh": "是否使用 action slot",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "placeholder": {
+      "description": "输入框为空时占位符",
+      "description_zh": "输入框为空时占位符",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "placeholder-style": {
+      "description": "指定占位符的样式",
+      "description_zh": "指定占位符的样式",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "input-align": {
+      "description": "输入框内容对齐方式，可选值为 center right",
+      "description_zh": "输入框内容对齐方式，可选值为 center right",
+      "default": "left",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "use-left-icon-slot": {
+      "description": "是否使用输入框左侧图标 slot",
+      "description_zh": "是否使用输入框左侧图标 slot",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "use-right-icon-slot": {
+      "description": "是否使用输入框右侧图标 slot",
+      "description_zh": "是否使用输入框右侧图标 slot",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "left-icon": {
+      "description": "输入框左侧图标名称或图片链接，可选值见 Icon 组件（如果设置了 use-left-icon-slot，则该属性无效）",
+      "description_zh": "输入框左侧图标名称或图片链接，可选值见 Icon 组件（如果设置了 use-left-icon-slot，则该属性无效）",
+      "default": "search",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "right-icon": {
+      "description": "输入框右侧图标名称或图片链接，可选值见 Icon 组件（如果设置了 use-right-icon-slot，则该属性无效）",
+      "description_zh": "输入框右侧图标名称或图片链接，可选值见 Icon 组件（如果设置了 use-right-icon-slot，则该属性无效）",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "cursor-spacing": {
+      "description": "输入框聚焦时底部与键盘的距离",
+      "description_zh": "输入框聚焦时底部与键盘的距离",
+      "default": "0",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/search",
+  "link_zh": "https://vant.pro/vant-weapp/#/search",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "action",
+      "description": "自定义搜索框右侧按钮，需要在use-action-slot为 true 时才会显示",
+      "description_zh": "自定义搜索框右侧按钮，需要在use-action-slot为 true 时才会显示"
+    },
+    {
+      "name": "label",
+      "description": "自定义搜索框左侧文本",
+      "description_zh": "自定义搜索框左侧文本"
+    },
+    {
+      "name": "left-icon",
+      "description": "自定义输入框左侧图标，需要在use-left-icon-slot为 true 时才会显示",
+      "description_zh": "自定义输入框左侧图标，需要在use-left-icon-slot为 true 时才会显示"
+    },
+    {
+      "name": "right-icon",
+      "description": "自定义输入框右侧图标，需要在use-right-icon-slot为 true 时才会显示",
+      "description_zh": "自定义输入框右侧图标，需要在use-right-icon-slot为 true 时才会显示"
+    }
+  ],
+  "suggestions": [],
+  "filename": "Search"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "VanGoodsAction",
+  "props": {
+    "safe-area-inset-bottom": {
+      "description": "是否为 iPhoneX 留出底部安全距离",
+      "description_zh": "是否为 iPhoneX 留出底部安全距离",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/goods-action",
+  "link_zh": "https://vant.pro/vant-weapp/#/goods-action",
+  "typeDetail": {},
+  "suggestions": [
+    "van-goods-action-button",
+    "van-goods-action-icon"
+  ],
+  "filename": "GoodsAction"
+}

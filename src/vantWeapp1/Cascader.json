@@ -1,0 +1,125 @@
+{
+  "name": "VanCascader",
+  "props": {
+    "title": {
+      "description": "顶部标题",
+      "description_zh": "顶部标题",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "value": {
+      "description": "选中项的值",
+      "description_zh": "选中项的值",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "options": {
+      "description": "可选项数据源",
+      "description_zh": "可选项数据源",
+      "default": "[]",
+      "value": "",
+      "type": "CascaderOption[]",
+      "required": false,
+      "version": ""
+    },
+    "placeholder": {
+      "description": "未选中时的提示文案",
+      "description_zh": "未选中时的提示文案",
+      "default": "请选择",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "active-color": {
+      "description": "选中状态的高亮颜色",
+      "description_zh": "选中状态的高亮颜色",
+      "default": "#1989fa",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "swipeable": {
+      "description": "是否开启手势左右滑动切换",
+      "description_zh": "是否开启手势左右滑动切换",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "closeable": {
+      "description": "是否显示关闭图标",
+      "description_zh": "是否显示关闭图标",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "ellipsis": {
+      "description": "是否省略过长的标题文字, 关闭后文字过长会出现横向滚动",
+      "description_zh": "是否省略过长的标题文字, 关闭后文字过长会出现横向滚动",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": "v1.11.7"
+    },
+    "show-header": {
+      "description": "是否展示标题栏",
+      "description_zh": "是否展示标题栏",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "close-icon": {
+      "description": "关闭图标名称或图片链接，等同于 Icon 组件的 name 属性",
+      "description_zh": "关闭图标名称或图片链接，等同于 Icon 组件的 name 属性",
+      "default": "cross",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "field-names": {
+      "description": "自定义 options 结构中的字段",
+      "description_zh": "自定义 options 结构中的字段",
+      "default": "{ text: 'text', value: 'value', children: 'children' }",
+      "value": "",
+      "type": "CascaderFieldNames",
+      "required": false,
+      "version": ""
+    },
+    "use-title-slot": {
+      "description": "是否使用自定义标题的插槽",
+      "description_zh": "是否使用自定义标题的插槽",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": "v1.11.3"
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/cascader",
+  "link_zh": "https://vant.pro/vant-weapp/#/cascader",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "title",
+      "description": "自定义顶部标题",
+      "description_zh": "自定义顶部标题"
+    }
+  ],
+  "suggestions": [],
+  "filename": "Cascader"
+}

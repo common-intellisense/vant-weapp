@@ -1,0 +1,80 @@
+{
+  "name": "VanOverlay",
+  "props": {
+    "show": {
+      "description": "是否展示遮罩层",
+      "description_zh": "是否展示遮罩层",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "z-index": {
+      "description": "z-index 层级",
+      "description_zh": "z-index 层级",
+      "default": "1",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "duration": {
+      "description": "动画时长，单位秒",
+      "description_zh": "动画时长，单位秒",
+      "default": "0.3",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "class-name": {
+      "description": "自定义类名",
+      "description_zh": "自定义类名",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "custom-style": {
+      "description": "自定义样式",
+      "description_zh": "自定义样式",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "lock-scroll": {
+      "description": "是否锁定背景滚动，锁定时蒙层里的内容也将无法滚动",
+      "description_zh": "是否锁定背景滚动，锁定时蒙层里的内容也将无法滚动",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": "v1.7.3"
+    },
+    "root-portal": {
+      "description": "是否从页面中脱离出来，用于解决各种 fixed 失效问题，微信基础库 >= 2.25.2 ",
+      "description_zh": "是否从页面中脱离出来，用于解决各种 fixed 失效问题，微信基础库 >= 2.25.2 ",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": "v1.10.14"
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/overlay",
+  "link_zh": "https://vant.pro/vant-weapp/#/overlay",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "default",
+      "description": "默认插槽，用于在遮罩层上方嵌入内容",
+      "description_zh": "默认插槽，用于在遮罩层上方嵌入内容"
+    }
+  ],
+  "suggestions": [],
+  "filename": "Overlay"
+}

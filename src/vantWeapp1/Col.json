@@ -1,0 +1,28 @@
+{
+  "name": "VanCol",
+  "props": {
+    "span": {
+      "description": "列元素宽度",
+      "description_zh": "列元素宽度",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "offset": {
+      "description": "列元素偏移距离",
+      "description_zh": "列元素偏移距离",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/col",
+  "link_zh": "https://vant.pro/vant-weapp/#/col",
+  "typeDetail": {},
+  "suggestions": [],
+  "filename": "Col"
+}

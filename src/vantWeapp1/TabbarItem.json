@@ -1,0 +1,85 @@
+{
+  "name": "VanTabbarItem",
+  "props": {
+    "name": {
+      "description": "标签名称，作为匹配的标识符",
+      "description_zh": "标签名称，作为匹配的标识符",
+      "default": "当前标签的索引值",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "icon": {
+      "description": "图标名称或图片链接，可选值见 Icon 组件",
+      "description_zh": "图标名称或图片链接，可选值见 Icon 组件",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "icon-prefix": {
+      "description": "图标类名前缀，同 Icon 组件的 class-prefix 属性",
+      "description_zh": "图标类名前缀，同 Icon 组件的 class-prefix 属性",
+      "default": "van-icon",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "dot": {
+      "description": "是否显示小红点",
+      "description_zh": "是否显示小红点",
+      "default": "-",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "info": {
+      "description": "图标右上角提示信息",
+      "description_zh": "图标右上角提示信息",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "url": {
+      "description": "点击后跳转的链接地址, 需要以 / 开头",
+      "description_zh": "点击后跳转的链接地址, 需要以 / 开头",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": "v1.10.13"
+    },
+    "link-type": {
+      "description": "链接跳转类型，可选值为 redirectTo、switchTab、reLaunch",
+      "description_zh": "链接跳转类型，可选值为 redirectTo、switchTab、reLaunch",
+      "default": "redirectTo",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": "v1.10.13"
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/tabbar",
+  "link_zh": "https://vant.pro/vant-weapp/#/tabbar",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "icon",
+      "description": "未选中时的图标",
+      "description_zh": "未选中时的图标"
+    },
+    {
+      "name": "icon-active",
+      "description": "选中时的图标",
+      "description_zh": "选中时的图标"
+    }
+  ],
+  "suggestions": [],
+  "filename": "TabbarItem"
+}

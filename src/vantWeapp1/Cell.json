@@ -1,0 +1,189 @@
+{
+  "name": "VanCell",
+  "props": {
+    "icon": {
+      "description": "左侧图标名称或图片链接，可选值见 Icon 组件",
+      "description_zh": "左侧图标名称或图片链接，可选值见 Icon 组件",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "title": {
+      "description": "左侧标题",
+      "description_zh": "左侧标题",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "title-width": {
+      "description": "标题宽度，须包含单位",
+      "description_zh": "标题宽度，须包含单位",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "value": {
+      "description": "右侧内容",
+      "description_zh": "右侧内容",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "label": {
+      "description": "标题下方的描述信息",
+      "description_zh": "标题下方的描述信息",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "size": {
+      "description": "单元格大小，可选值为 large",
+      "description_zh": "单元格大小，可选值为 large",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "border": {
+      "description": "是否显示下边框",
+      "description_zh": "是否显示下边框",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "center": {
+      "description": "是否使内容垂直居中",
+      "description_zh": "是否使内容垂直居中",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "url": {
+      "description": "点击后跳转的链接地址",
+      "description_zh": "点击后跳转的链接地址",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "link-type": {
+      "description": "链接跳转类型，可选值为 redirectTo switchTab reLaunch",
+      "description_zh": "链接跳转类型，可选值为 redirectTo switchTab reLaunch",
+      "default": "navigateTo",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "clickable": {
+      "description": "是否开启点击反馈",
+      "description_zh": "是否开启点击反馈",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "is-link": {
+      "description": "是否展示右侧箭头并开启点击反馈",
+      "description_zh": "是否展示右侧箭头并开启点击反馈",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "required": {
+      "description": "是否显示表单必填星号",
+      "description_zh": "是否显示表单必填星号",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "arrow-direction": {
+      "description": "箭头方向，可选值为 left up down",
+      "description_zh": "箭头方向，可选值为 left up down",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "use-label-slot": {
+      "description": "是否使用 label slot",
+      "description_zh": "是否使用 label slot",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "title-style": {
+      "description": "标题样式",
+      "description_zh": "标题样式",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": "v1.4.0"
+    },
+    "bind:click": {
+      "description": "点击单元格时触发",
+      "description_zh": "点击单元格时触发",
+      "default": "",
+      "value": "",
+      "type": "-",
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/cell",
+  "link_zh": "https://vant.pro/vant-weapp/#/cell",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "default",
+      "description": "自定义value显示内容，如果设置了value属性则不生效",
+      "description_zh": "自定义value显示内容，如果设置了value属性则不生效"
+    },
+    {
+      "name": "title",
+      "description": "自定义title显示内容，如果设置了title属性则不生效",
+      "description_zh": "自定义title显示内容，如果设置了title属性则不生效"
+    },
+    {
+      "name": "label",
+      "description": "自定义label显示内容，需要设置 use-label-slot属性",
+      "description_zh": "自定义label显示内容，需要设置 use-label-slot属性"
+    },
+    {
+      "name": "icon",
+      "description": "自定义icon显示内容，如果设置了icon属性则不生效",
+      "description_zh": "自定义icon显示内容，如果设置了icon属性则不生效"
+    },
+    {
+      "name": "right-icon",
+      "description": "自定义右侧按钮，默认是arrow，如果设置了is-link属性则不生效",
+      "description_zh": "自定义右侧按钮，默认是arrow，如果设置了is-link属性则不生效"
+    }
+  ],
+  "suggestions": [],
+  "filename": "Cell"
+}

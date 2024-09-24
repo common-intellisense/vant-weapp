@@ -1,0 +1,89 @@
+{
+  "name": "VanTag",
+  "props": {
+    "type": {
+      "description": "类型，可选值为 primary success danger warning",
+      "description_zh": "类型，可选值为 primary success danger warning",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "size": {
+      "description": "大小, 可选值为 large medium",
+      "description_zh": "大小, 可选值为 large medium",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "color": {
+      "description": "标签颜色",
+      "description_zh": "标签颜色",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "plain": {
+      "description": "是否为空心样式",
+      "description_zh": "是否为空心样式",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "round": {
+      "description": "是否为圆角样式",
+      "description_zh": "是否为圆角样式",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "mark": {
+      "description": "是否为标记样式",
+      "description_zh": "是否为标记样式",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "text-color": {
+      "description": "文本颜色，优先级高于 color 属性",
+      "description_zh": "文本颜色，优先级高于 color 属性",
+      "default": "white",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "closeable": {
+      "description": "是否为可关闭标签",
+      "description_zh": "是否为可关闭标签",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/tag",
+  "link_zh": "https://vant.pro/vant-weapp/#/tag",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "default",
+      "description": "自定义 Tag 显示内容",
+      "description_zh": "自定义 Tag 显示内容"
+    }
+  ],
+  "suggestions": [],
+  "filename": "Tag"
+}

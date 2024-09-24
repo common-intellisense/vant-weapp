@@ -1,0 +1,92 @@
+{
+  "name": "VanTabbar",
+  "props": {
+    "active": {
+      "description": "当前选中标签的索引",
+      "description_zh": "当前选中标签的索引",
+      "default": "-",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "fixed": {
+      "description": "是否固定在底部",
+      "description_zh": "是否固定在底部",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "placeholder": {
+      "description": "固定在底部时，是否在标签位置生成一个等高的占位元素",
+      "description_zh": "固定在底部时，是否在标签位置生成一个等高的占位元素",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "border": {
+      "description": "是否展示外边框",
+      "description_zh": "是否展示外边框",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "z-index": {
+      "description": "元素 z-index",
+      "description_zh": "元素 z-index",
+      "default": "1",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "active-color": {
+      "description": "选中标签的颜色",
+      "description_zh": "选中标签的颜色",
+      "default": "#1989fa",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "inactive-color": {
+      "description": "未选中标签的颜色",
+      "description_zh": "未选中标签的颜色",
+      "default": "#7d7e80",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "safe-area-inset-bottom": {
+      "description": "是否为 iPhoneX 留出底部安全距离",
+      "description_zh": "是否为 iPhoneX 留出底部安全距离",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "bind:change": {
+      "description": "切换标签时触发",
+      "description_zh": "切换标签时触发",
+      "default": "",
+      "value": "",
+      "type": "event.detail: 当前选中标签的名称或索引值",
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/tabbar",
+  "link_zh": "https://vant.pro/vant-weapp/#/tabbar",
+  "typeDetail": {},
+  "suggestions": [
+    "van-tabbar-item"
+  ],
+  "filename": "Tabbar"
+}

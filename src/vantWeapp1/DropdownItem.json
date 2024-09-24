@@ -1,0 +1,90 @@
+{
+  "name": "VanDropdownItem",
+  "props": {
+    "value": {
+      "description": "当前选中项对应的 value",
+      "description_zh": "当前选中项对应的 value",
+      "default": "-",
+      "value": "",
+      "type": "number | string",
+      "required": false,
+      "version": ""
+    },
+    "title": {
+      "description": "菜单项标题",
+      "description_zh": "菜单项标题",
+      "default": "当前选中项文字",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "options": {
+      "description": "选项数组",
+      "description_zh": "选项数组",
+      "default": "[]",
+      "value": "",
+      "type": "Option[]",
+      "required": false,
+      "version": ""
+    },
+    "disabled": {
+      "description": "是否禁用菜单",
+      "description_zh": "是否禁用菜单",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "title-class": {
+      "description": "标题额外类名，建议使用自定义样式 item-title-class 代替",
+      "description_zh": "标题额外类名，建议使用自定义样式 item-title-class 代替",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "popup-style": {
+      "description": "自定义弹出层样式",
+      "description_zh": "自定义弹出层样式",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "use-before-toggle": {
+      "description": "是否开启下拉菜单打开或者关闭前校验",
+      "description_zh": "是否开启下拉菜单打开或者关闭前校验",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": "v1.10.12"
+    },
+    "root-portal": {
+      "description": "是否从页面子树中脱离出来，用于解决各种 fixed 失效问题，微信基础库 >= 2.25.2 ",
+      "description_zh": "是否从页面子树中脱离出来，用于解决各种 fixed 失效问题，微信基础库 >= 2.25.2 ",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": "v1.10.14"
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/dropdown-menu",
+  "link_zh": "https://vant.pro/vant-weapp/#/dropdown-menu",
+  "typeDetail": {},
+  "methods": [
+    {
+      "name": "toggle",
+      "description": "切换菜单展示状态，传true为显示，false为隐藏，不传参为取反",
+      "description_zh": "切换菜单展示状态，传true为显示，false为隐藏，不传参为取反",
+      "params": ""
+    }
+  ],
+  "suggestions": [],
+  "filename": "DropdownItem"
+}

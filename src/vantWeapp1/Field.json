@@ -1,0 +1,433 @@
+{
+  "name": "VanField",
+  "props": {
+    "name": {
+      "description": "在表单内提交时的标识符。可以通过配置 name 来扩大点击区域",
+      "description_zh": "在表单内提交时的标识符。可以通过配置 name 来扩大点击区域",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "label": {
+      "description": "输入框左侧文本",
+      "description_zh": "输入框左侧文本",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "size": {
+      "description": "单元格大小，可选值为 large",
+      "description_zh": "单元格大小，可选值为 large",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "value": {
+      "description": "当前输入的值",
+      "description_zh": "当前输入的值",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "type": {
+      "description": "可设置为任意原生类型, 如 number idcard textarea digit nickname",
+      "description_zh": "可设置为任意原生类型, 如 number idcard textarea digit nickname",
+      "default": "text",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "fixed": {
+      "description": "如果 type 为 textarea 且在一个 position:fixed 的区域，需要显示指定属性 fixed 为 true",
+      "description_zh": "如果 type 为 textarea 且在一个 position:fixed 的区域，需要显示指定属性 fixed 为 true",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "focus": {
+      "description": "获取焦点",
+      "description_zh": "获取焦点",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "border": {
+      "description": "是否显示内边框",
+      "description_zh": "是否显示内边框",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "disabled": {
+      "description": "是否禁用输入框",
+      "description_zh": "是否禁用输入框",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "readonly": {
+      "description": "是否只读",
+      "description_zh": "是否只读",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "clearable": {
+      "description": "是否启用清除控件",
+      "description_zh": "是否启用清除控件",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "clickable": {
+      "description": "是否开启点击反馈",
+      "description_zh": "是否开启点击反馈",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "required": {
+      "description": "是否显示表单必填星号",
+      "description_zh": "是否显示表单必填星号",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "center": {
+      "description": "是否使内容垂直居中",
+      "description_zh": "是否使内容垂直居中",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "password": {
+      "description": "是否是密码类型",
+      "description_zh": "是否是密码类型",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "title-width": {
+      "description": "标题宽度",
+      "description_zh": "标题宽度",
+      "default": "6.2em",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "maxlength": {
+      "description": "最大输入长度，设置为 -1 的时候不限制最大长度",
+      "description_zh": "最大输入长度，设置为 -1 的时候不限制最大长度",
+      "default": "-1",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "placeholder": {
+      "description": "输入框为空时占位符",
+      "description_zh": "输入框为空时占位符",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "placeholder-style": {
+      "description": "指定 placeholder 的样式",
+      "description_zh": "指定 placeholder 的样式",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "custom-style": {
+      "description": "自定义样式",
+      "description_zh": "自定义样式",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "is-link": {
+      "description": "是否展示右侧箭头并开启点击反馈",
+      "description_zh": "是否展示右侧箭头并开启点击反馈",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "arrow-direction": {
+      "description": "箭头方向，可选值为 left up down",
+      "description_zh": "箭头方向，可选值为 left up down",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "show-word-limit": {
+      "description": "是否显示字数统计，需要设置maxlength属性",
+      "description_zh": "是否显示字数统计，需要设置maxlength属性",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "error": {
+      "description": "是否将输入内容标红",
+      "description_zh": "是否将输入内容标红",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "error-message": {
+      "description": "底部错误提示文案，为空时不展示",
+      "description_zh": "底部错误提示文案，为空时不展示",
+      "default": "''",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "error-message-align": {
+      "description": "底部错误提示文案对齐方式，可选值为 center right",
+      "description_zh": "底部错误提示文案对齐方式，可选值为 center right",
+      "default": "''",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "input-align": {
+      "description": "输入框内容对齐方式，可选值为 center right",
+      "description_zh": "输入框内容对齐方式，可选值为 center right",
+      "default": "left",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "autosize": {
+      "description": "是否自适应内容高度，只对 textarea 有效，可传入对象,如 { maxHeight: 100, minHeight: 50 }，单位为px",
+      "description_zh": "是否自适应内容高度，只对 textarea 有效，可传入对象,如 { maxHeight: 100, minHeight: 50 }，单位为px",
+      "default": "false",
+      "value": "",
+      "type": "boolean | object",
+      "required": false,
+      "version": ""
+    },
+    "left-icon": {
+      "description": "左侧图标名称或图片链接，可选值见 Icon 组件",
+      "description_zh": "左侧图标名称或图片链接，可选值见 Icon 组件",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "right-icon": {
+      "description": "右侧图标名称或图片链接，可选值见 Icon 组件",
+      "description_zh": "右侧图标名称或图片链接，可选值见 Icon 组件",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "confirm-type": {
+      "description": "设置键盘右下角按钮的文字，仅在 type='text' 时生效",
+      "description_zh": "设置键盘右下角按钮的文字，仅在 type='text' 时生效",
+      "default": "done",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "confirm-hold": {
+      "description": "点击键盘右下角按钮时是否保持键盘不收起，在 type='textarea' 时无效",
+      "description_zh": "点击键盘右下角按钮时是否保持键盘不收起，在 type='textarea' 时无效",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "hold-keyboard": {
+      "description": "focus 时，点击页面的时候不收起键盘",
+      "description_zh": "focus 时，点击页面的时候不收起键盘",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "cursor-spacing": {
+      "description": "输入框聚焦时底部与键盘的距离",
+      "description_zh": "输入框聚焦时底部与键盘的距离",
+      "default": "50",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "adjust-position": {
+      "description": "键盘弹起时，是否自动上推页面",
+      "description_zh": "键盘弹起时，是否自动上推页面",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "show-confirm-bar": {
+      "description": "是否显示键盘上方带有”完成“按钮那一栏，只对 textarea 有效",
+      "description_zh": "是否显示键盘上方带有”完成“按钮那一栏，只对 textarea 有效",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "selection-start": {
+      "description": "光标起始位置，自动聚集时有效，需与 selection-end 搭配使用",
+      "description_zh": "光标起始位置，自动聚集时有效，需与 selection-end 搭配使用",
+      "default": "-1",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "selection-end": {
+      "description": "光标结束位置，自动聚集时有效，需与 selection-start 搭配使用",
+      "description_zh": "光标结束位置，自动聚集时有效，需与 selection-start 搭配使用",
+      "default": "-1",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "auto-focus": {
+      "description": "自动聚焦，拉起键盘",
+      "description_zh": "自动聚焦，拉起键盘",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "disable-default-padding": {
+      "description": "是否去掉 iOS 下的默认内边距，只对 textarea 有效",
+      "description_zh": "是否去掉 iOS 下的默认内边距，只对 textarea 有效",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "cursor": {
+      "description": "指定 focus 时的光标位置",
+      "description_zh": "指定 focus 时的光标位置",
+      "default": "-1",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "clear-trigger": {
+      "description": "显示清除图标的时机，always 表示输入框不为空时展示，focus 表示输入框聚焦且不为空时展示",
+      "description_zh": "显示清除图标的时机，always 表示输入框不为空时展示，focus 表示输入框聚焦且不为空时展示",
+      "default": "focus",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": "v1.8.4"
+    },
+    "always-embed": {
+      "description": "强制 input 处于同层状态，默认 focus 时 input 会切到非同层状态 (仅在 iOS 下生效)",
+      "description_zh": "强制 input 处于同层状态，默认 focus 时 input 会切到非同层状态 (仅在 iOS 下生效)",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": "v1.9.2"
+    },
+    "extra-event-params": {
+      "description": "开启事件增强模式，会在 input 和 change 事件额外提供 cursor 和 keyCode 参数，计划在下一个大版本作为默认行为",
+      "description_zh": "开启事件增强模式，会在 input 和 change 事件额外提供 cursor 和 keyCode 参数，计划在下一个大版本作为默认行为",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": "v1.10.12"
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/field",
+  "link_zh": "https://vant.pro/vant-weapp/#/field",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "label",
+      "description": "自定义输入框标签，如果设置了label属性则不生效",
+      "description_zh": "自定义输入框标签，如果设置了label属性则不生效"
+    },
+    {
+      "name": "left-icon",
+      "description": "自定义输入框头部图标",
+      "description_zh": "自定义输入框头部图标"
+    },
+    {
+      "name": "right-icon",
+      "description": "自定义输入框尾部图标",
+      "description_zh": "自定义输入框尾部图标"
+    },
+    {
+      "name": "button",
+      "description": "自定义输入框尾部按钮",
+      "description_zh": "自定义输入框尾部按钮"
+    },
+    {
+      "name": "input",
+      "description": "自定义输入框，使用此插槽后，与输入框相关的属性和事件将失效",
+      "description_zh": "自定义输入框，使用此插槽后，与输入框相关的属性和事件将失效"
+    }
+  ],
+  "suggestions": [],
+  "filename": "Field"
+}

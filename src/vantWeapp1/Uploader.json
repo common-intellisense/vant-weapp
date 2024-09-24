@@ -1,0 +1,251 @@
+{
+  "name": "VanUploader",
+  "props": {
+    "name": {
+      "description": "标识符，可以在回调函数的第二项参数中获取",
+      "description_zh": "标识符，可以在回调函数的第二项参数中获取",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "accept": {
+      "description": "接受的文件类型, 可选值为all media image file video",
+      "description_zh": "接受的文件类型, 可选值为all media image file video",
+      "default": "image",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "sizeType": {
+      "description": "所选的图片的尺寸, 当accept为image | media 类型时设置所选图片的尺寸可选值为original compressed",
+      "description_zh": "所选的图片的尺寸, 当accept为image | media 类型时设置所选图片的尺寸可选值为original compressed",
+      "default": "['original','compressed']",
+      "value": "",
+      "type": "string[]",
+      "required": false,
+      "version": ""
+    },
+    "preview-size": {
+      "description": "预览图和上传区域的尺寸，默认单位为px",
+      "description_zh": "预览图和上传区域的尺寸，默认单位为px",
+      "default": "80px",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "preview-image": {
+      "description": "是否在上传完成后展示预览图",
+      "description_zh": "是否在上传完成后展示预览图",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "preview-full-image": {
+      "description": "是否在点击预览图后展示全屏图片预览",
+      "description_zh": "是否在点击预览图后展示全屏图片预览",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "preview-file": {
+      "description": "是否在点击文件预览图后预览文件",
+      "description_zh": "是否在点击文件预览图后预览文件",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": "v1.11.7"
+    },
+    "multiple": {
+      "description": "是否开启图片多选，部分安卓机型不支持",
+      "description_zh": "是否开启图片多选，部分安卓机型不支持",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "disabled": {
+      "description": "是否禁用文件上传",
+      "description_zh": "是否禁用文件上传",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "show-upload": {
+      "description": "是否展示文件上传按钮",
+      "description_zh": "是否展示文件上传按钮",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "deletable": {
+      "description": "是否展示删除按钮",
+      "description_zh": "是否展示删除按钮",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "capture": {
+      "description": "图片或者视频选取模式，当accept为image | media 类型时设置capture可选值为camera可以直接调起摄像头",
+      "description_zh": "图片或者视频选取模式，当accept为image | media 类型时设置capture可选值为camera可以直接调起摄像头",
+      "default": "['album', 'camera']",
+      "value": "",
+      "type": "string[]",
+      "required": false,
+      "version": ""
+    },
+    "max-size": {
+      "description": "文件大小限制，单位为byte",
+      "description_zh": "文件大小限制，单位为byte",
+      "default": "-",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "max-count": {
+      "description": "文件上传数量限制",
+      "description_zh": "文件上传数量限制",
+      "default": "-",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "upload-text": {
+      "description": "上传区域文字提示",
+      "description_zh": "上传区域文字提示",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "video-fit": {
+      "description": "video 封面的预览图模式，可选值参考小程序video组件的object-fit属性",
+      "description_zh": "video 封面的预览图模式，可选值参考小程序video组件的object-fit属性",
+      "default": "contain",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": "1.10.21"
+    },
+    "image-fit": {
+      "description": "预览图裁剪模式，可选值参考小程序image组件的mode属性",
+      "description_zh": "预览图裁剪模式，可选值参考小程序image组件的mode属性",
+      "default": "scaleToFill",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "use-before-read": {
+      "description": "是否开启文件读取前事件",
+      "description_zh": "是否开启文件读取前事件",
+      "default": "-",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "camera": {
+      "description": "当 accept 为 video | media 时生效，可选值为 back front",
+      "description_zh": "当 accept 为 video | media 时生效，可选值为 back front",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "compressed": {
+      "description": "当 accept 为 video 时生效，是否压缩视频，默认为true",
+      "description_zh": "当 accept 为 video 时生效，是否压缩视频，默认为true",
+      "default": "-",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "max-duration": {
+      "description": "当 accept 为 video | media 时生效，拍摄视频最长拍摄时间，单位秒",
+      "description_zh": "当 accept 为 video | media 时生效，拍摄视频最长拍摄时间，单位秒",
+      "default": "60",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "media-type": {
+      "description": "当 accept 为 media 时生效，选择的文件的文件类型，可选值为 image video mix",
+      "description_zh": "当 accept 为 media 时生效，选择的文件的文件类型，可选值为 image video mix",
+      "default": "['image', 'video', 'mix']",
+      "value": "",
+      "type": "string[]",
+      "required": false,
+      "version": "v1.10.8"
+    },
+    "extension": {
+      "description": "当 accept 为 file 时生效，根据文件拓展名过滤可选择文件。每一项都不能是空字符串。默认不过滤",
+      "description_zh": "当 accept 为 file 时生效，根据文件拓展名过滤可选择文件。每一项都不能是空字符串。默认不过滤",
+      "default": "-",
+      "value": "",
+      "type": "string[] | undefined",
+      "required": false,
+      "version": "v1.10.11"
+    },
+    "showmenu": {
+      "description": "预览图片时，是否显示长按菜单",
+      "description_zh": "预览图片时，是否显示长按菜单",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": "v1.10.13"
+    },
+    "upload-icon": {
+      "description": "上传区域图标，可选值见 Icon 组件",
+      "description_zh": "上传区域图标，可选值见 Icon 组件",
+      "default": "plus",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "referrer-policy": {
+      "description": "当 accept 为 video 时生效，具体用法参考 微信官方 - 媒体组件 / video",
+      "description_zh": "当 accept 为 video 时生效，具体用法参考 微信官方 - 媒体组件 / video",
+      "default": "no-referrer",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": "v1.11.6"
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/uploader",
+  "link_zh": "https://vant.pro/vant-weapp/#/uploader",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "default",
+      "description": "自定义上传区域",
+      "description_zh": "自定义上传区域"
+    }
+  ],
+  "suggestions": [],
+  "filename": "Uploader"
+}

@@ -1,0 +1,99 @@
+{
+  "name": "VanGridItem",
+  "props": {
+    "text": {
+      "description": "文字",
+      "description_zh": "文字",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "icon": {
+      "description": "图标名称或图片链接，可选值见 Icon 组件",
+      "description_zh": "图标名称或图片链接，可选值见 Icon 组件",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "icon-color": {
+      "description": "图标颜色",
+      "description_zh": "图标颜色",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "icon-prefix": {
+      "description": "第三方图标前缀",
+      "description_zh": "第三方图标前缀",
+      "default": "van-icon",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": "v1.7.0"
+    },
+    "dot": {
+      "description": "是否显示图标右上角小红点",
+      "description_zh": "是否显示图标右上角小红点",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "badge": {
+      "description": "图标右上角徽标的内容",
+      "description_zh": "图标右上角徽标的内容",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "url": {
+      "description": "点击后跳转的链接地址",
+      "description_zh": "点击后跳转的链接地址",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "link-type": {
+      "description": "链接跳转类型，可选值为 redirectTo switchTab reLaunch",
+      "description_zh": "链接跳转类型，可选值为 redirectTo switchTab reLaunch",
+      "default": "navigateTo",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/grid",
+  "link_zh": "https://vant.pro/vant-weapp/#/grid",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "default",
+      "description": "自定义宫格的所有内容，需要设置use-slot属性",
+      "description_zh": "自定义宫格的所有内容，需要设置use-slot属性"
+    },
+    {
+      "name": "icon",
+      "description": "自定义图标，如果设置了use-slot或者icon属性则不生效",
+      "description_zh": "自定义图标，如果设置了use-slot或者icon属性则不生效"
+    },
+    {
+      "name": "text",
+      "description": "自定义文字，如果设置了use-slot或者text属性则不生效",
+      "description_zh": "自定义文字，如果设置了use-slot或者text属性则不生效"
+    }
+  ],
+  "suggestions": [],
+  "filename": "GridItem"
+}

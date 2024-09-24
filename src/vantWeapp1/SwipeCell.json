@@ -1,0 +1,86 @@
+{
+  "name": "VanSwipeCell",
+  "props": {
+    "name": {
+      "description": "标识符，可以在 close 事件的参数中获取到",
+      "description_zh": "标识符，可以在 close 事件的参数中获取到",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "left-width": {
+      "description": "左侧滑动区域宽度",
+      "description_zh": "左侧滑动区域宽度",
+      "default": "0",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "right-width": {
+      "description": "右侧滑动区域宽度",
+      "description_zh": "右侧滑动区域宽度",
+      "default": "0",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "async-close": {
+      "description": "是否异步关闭",
+      "description_zh": "是否异步关闭",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "disabled": {
+      "description": "是否禁用滑动",
+      "description_zh": "是否禁用滑动",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": "v1.3.4"
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/swipe-cell",
+  "link_zh": "https://vant.pro/vant-weapp/#/swipe-cell",
+  "typeDetail": {},
+  "methods": [
+    {
+      "name": "open",
+      "description": "position: left | right",
+      "description_zh": "position: left | right",
+      "params": ""
+    },
+    {
+      "name": "close",
+      "description": "-",
+      "description_zh": "-",
+      "params": ""
+    }
+  ],
+  "slots": [
+    {
+      "name": "default",
+      "description": "自定义显示内容",
+      "description_zh": "自定义显示内容"
+    },
+    {
+      "name": "left",
+      "description": "左侧滑动内容",
+      "description_zh": "左侧滑动内容"
+    },
+    {
+      "name": "right",
+      "description": "右侧滑动内容",
+      "description_zh": "右侧滑动内容"
+    }
+  ],
+  "suggestions": [],
+  "filename": "SwipeCell"
+}

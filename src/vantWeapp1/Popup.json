@@ -1,0 +1,163 @@
+{
+  "name": "VanPopup",
+  "props": {
+    "show": {
+      "description": "是否显示弹出层",
+      "description_zh": "是否显示弹出层",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "z-index": {
+      "description": "z-index 层级",
+      "description_zh": "z-index 层级",
+      "default": "100",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "overlay": {
+      "description": "是否显示遮罩层",
+      "description_zh": "是否显示遮罩层",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "position": {
+      "description": "弹出位置，可选值为 top bottom right left",
+      "description_zh": "弹出位置，可选值为 top bottom right left",
+      "default": "center",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "duration": {
+      "description": "动画时长，单位为毫秒",
+      "description_zh": "动画时长，单位为毫秒",
+      "default": "300",
+      "value": "",
+      "type": "number | object",
+      "required": false,
+      "version": ""
+    },
+    "round": {
+      "description": "是否显示圆角",
+      "description_zh": "是否显示圆角",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "custom-style": {
+      "description": "自定义弹出层样式",
+      "description_zh": "自定义弹出层样式",
+      "default": "''",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "overlay-style": {
+      "description": "自定义遮罩层样式",
+      "description_zh": "自定义遮罩层样式",
+      "default": "''",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "close-on-click-overlay": {
+      "description": "是否在点击遮罩层后关闭",
+      "description_zh": "是否在点击遮罩层后关闭",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "closeable": {
+      "description": "是否显示关闭图标",
+      "description_zh": "是否显示关闭图标",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "close-icon": {
+      "description": "关闭图标名称或图片链接",
+      "description_zh": "关闭图标名称或图片链接",
+      "default": "cross",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "close-icon-position": {
+      "description": "关闭图标位置，可选值为 top-leftbottom-left bottom-right",
+      "description_zh": "关闭图标位置，可选值为 top-leftbottom-left bottom-right",
+      "default": "top-right",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "safe-area-inset-bottom": {
+      "description": "是否为 iPhoneX 留出底部安全距离",
+      "description_zh": "是否为 iPhoneX 留出底部安全距离",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "safe-area-inset-top": {
+      "description": "是否留出顶部安全距离（状态栏高度）",
+      "description_zh": "是否留出顶部安全距离（状态栏高度）",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "safe-area-tab-bar": {
+      "description": "是否留出底部 tabbar 安全距离（在使用 tabbar 组件 & 小程序自定义 tabbar 时，popup 组件层级无法盖住 tabbar）",
+      "description_zh": "是否留出底部 tabbar 安全距离（在使用 tabbar 组件 & 小程序自定义 tabbar 时，popup 组件层级无法盖住 tabbar）",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "lock-scroll": {
+      "description": "是否锁定背景滚动",
+      "description_zh": "是否锁定背景滚动",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": "v1.7.3"
+    },
+    "root-portal": {
+      "description": "是否从页面中脱离出来，用于解决各种 fixed 失效问题，微信基础库 >= 2.25.2 ",
+      "description_zh": "是否从页面中脱离出来，用于解决各种 fixed 失效问题，微信基础库 >= 2.25.2 ",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": "v1.10.14"
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/popup",
+  "link_zh": "https://vant.pro/vant-weapp/#/popup",
+  "typeDetail": {},
+  "suggestions": [],
+  "filename": "Popup"
+}

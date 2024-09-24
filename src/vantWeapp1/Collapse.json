@@ -1,0 +1,63 @@
+{
+  "name": "VanCollapse",
+  "props": {
+    "value": {
+      "description": "当前展开面板的 name",
+      "description_zh": "当前展开面板的 name",
+      "default": "-",
+      "value": "",
+      "type": "非手风琴模式：(string | number)[]手风琴模式：string | number",
+      "required": false,
+      "version": ""
+    },
+    "accordion": {
+      "description": "是否开启手风琴模式",
+      "description_zh": "是否开启手风琴模式",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "border": {
+      "description": "是否显示外边框",
+      "description_zh": "是否显示外边框",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "change": {
+      "description": "切换面板时触发",
+      "description_zh": "切换面板时触发",
+      "default": "",
+      "value": "",
+      "type": "activeNames: string | Array",
+      "version": ""
+    },
+    "open": {
+      "description": "展开面板时触发",
+      "description_zh": "展开面板时触发",
+      "default": "",
+      "value": "",
+      "type": "currentName: string | number",
+      "version": ""
+    },
+    "close": {
+      "description": "关闭面板时触发",
+      "description_zh": "关闭面板时触发",
+      "default": "",
+      "value": "",
+      "type": "currentName: string | number",
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/collapse",
+  "link_zh": "https://vant.pro/vant-weapp/#/collapse",
+  "typeDetail": {},
+  "suggestions": [
+    "van-collapse-item"
+  ],
+  "filename": "Collapse"
+}

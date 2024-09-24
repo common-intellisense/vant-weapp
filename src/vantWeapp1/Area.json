@@ -1,0 +1,117 @@
+{
+  "name": "VanArea",
+  "props": {
+    "value": {
+      "description": "当前选中的省市区code",
+      "description_zh": "当前选中的省市区code",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "title": {
+      "description": "顶部栏标题",
+      "description_zh": "顶部栏标题",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "area-list": {
+      "description": "省市区数据，格式见下方",
+      "description_zh": "省市区数据，格式见下方",
+      "default": "-",
+      "value": "",
+      "type": "object",
+      "required": false,
+      "version": ""
+    },
+    "columns-num": {
+      "description": "省市区显示列数，3-省市区，2-省市，1-省",
+      "description_zh": "省市区显示列数，3-省市区，2-省市，1-省",
+      "default": "3",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "columns-placeholder": {
+      "description": "列占位提示文字",
+      "description_zh": "列占位提示文字",
+      "default": "[]",
+      "value": "",
+      "type": "string[]",
+      "required": false,
+      "version": ""
+    },
+    "loading": {
+      "description": "是否显示加载状态",
+      "description_zh": "是否显示加载状态",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "item-height": {
+      "description": "选项高度",
+      "description_zh": "选项高度",
+      "default": "44",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "visible-item-count": {
+      "description": "可见的选项个数",
+      "description_zh": "可见的选项个数",
+      "default": "6",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "confirm-button-text": {
+      "description": "确认按钮文字",
+      "description_zh": "确认按钮文字",
+      "default": "确认",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "cancel-button-text": {
+      "description": "取消按钮文字",
+      "description_zh": "取消按钮文字",
+      "default": "取消",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "show-toolbar": {
+      "description": "是否显示顶部栏",
+      "description_zh": "是否显示顶部栏",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": "1.10.3"
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/area",
+  "link_zh": "https://vant.pro/vant-weapp/#/area",
+  "typeDetail": {},
+  "methods": [
+    {
+      "name": "reset",
+      "description": "code: string",
+      "description_zh": "code: string",
+      "params": ""
+    }
+  ],
+  "suggestions": [],
+  "filename": "Area"
+}

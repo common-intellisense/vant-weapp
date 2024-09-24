@@ -1,0 +1,163 @@
+{
+  "name": "VanDatetimePicker",
+  "props": {
+    "value": {
+      "description": "当前选中值",
+      "description_zh": "当前选中值",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "type": {
+      "description": "类型，可选值为 date time year-month  不建议动态修改",
+      "description_zh": "类型，可选值为 date time year-month  不建议动态修改",
+      "default": "datetime",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "min-date": {
+      "description": "可选的最小时间，精确到分钟",
+      "description_zh": "可选的最小时间，精确到分钟",
+      "default": "十年前",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "max-date": {
+      "description": "可选的最大时间，精确到分钟",
+      "description_zh": "可选的最大时间，精确到分钟",
+      "default": "十年后",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "min-hour": {
+      "description": "可选的最小小时，针对 time 类型",
+      "description_zh": "可选的最小小时，针对 time 类型",
+      "default": "0",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "max-hour": {
+      "description": "可选的最大小时，针对 time 类型",
+      "description_zh": "可选的最大小时，针对 time 类型",
+      "default": "23",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "min-minute": {
+      "description": "可选的最小分钟，针对 time 类型",
+      "description_zh": "可选的最小分钟，针对 time 类型",
+      "default": "0",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "max-minute": {
+      "description": "可选的最大分钟，针对 time 类型",
+      "description_zh": "可选的最大分钟，针对 time 类型",
+      "default": "59",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "filter": {
+      "description": "选项过滤函数(type 可能值为 year, month, day, hour, minute)",
+      "description_zh": "选项过滤函数(type 可能值为 year, month, day, hour, minute)",
+      "default": "-",
+      "value": "",
+      "type": "(type, values) => values",
+      "required": false,
+      "version": ""
+    },
+    "formatter": {
+      "description": "选项格式化函数(type 可能值为 year, month, day, hour, minute)",
+      "description_zh": "选项格式化函数(type 可能值为 year, month, day, hour, minute)",
+      "default": "-",
+      "value": "",
+      "type": "(type, value) => value",
+      "required": false,
+      "version": ""
+    },
+    "title": {
+      "description": "顶部栏标题",
+      "description_zh": "顶部栏标题",
+      "default": "''",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "show-toolbar": {
+      "description": "是否显示顶部栏",
+      "description_zh": "是否显示顶部栏",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "loading": {
+      "description": "是否显示加载状态",
+      "description_zh": "是否显示加载状态",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "item-height": {
+      "description": "选项高度",
+      "description_zh": "选项高度",
+      "default": "44",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "confirm-button-text": {
+      "description": "确认按钮文字",
+      "description_zh": "确认按钮文字",
+      "default": "确认",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "cancel-button-text": {
+      "description": "取消按钮文字",
+      "description_zh": "取消按钮文字",
+      "default": "取消",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "visible-item-count": {
+      "description": "可见的选项个数",
+      "description_zh": "可见的选项个数",
+      "default": "6",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/datetime-picker",
+  "link_zh": "https://vant.pro/vant-weapp/#/datetime-picker",
+  "typeDetail": {},
+  "suggestions": [],
+  "filename": "DatetimePicker"
+}

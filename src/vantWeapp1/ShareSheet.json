@@ -1,0 +1,112 @@
+{
+  "name": "VanShareSheet",
+  "props": {
+    "show": {
+      "description": "是否显示分享面板",
+      "description_zh": "是否显示分享面板",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "options": {
+      "description": "分享选项",
+      "description_zh": "分享选项",
+      "default": "[]",
+      "value": "",
+      "type": "Option[]",
+      "required": false,
+      "version": ""
+    },
+    "title": {
+      "description": "顶部标题",
+      "description_zh": "顶部标题",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "cancel-text": {
+      "description": "取消按钮文字",
+      "description_zh": "取消按钮文字",
+      "default": "'取消'",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "description": {
+      "description": "标题下方的辅助描述文字",
+      "description_zh": "标题下方的辅助描述文字",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "duration": {
+      "description": "动画时长，单位毫秒",
+      "description_zh": "动画时长，单位毫秒",
+      "default": "300",
+      "value": "",
+      "type": "number | string",
+      "required": false,
+      "version": ""
+    },
+    "overlay": {
+      "description": "是否显示遮罩层",
+      "description_zh": "是否显示遮罩层",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "close-on-click-overlay": {
+      "description": "是否在点击遮罩层后关闭",
+      "description_zh": "是否在点击遮罩层后关闭",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "safe-area-inset-bottom": {
+      "description": "是否开启底部安全区适配",
+      "description_zh": "是否开启底部安全区适配",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "root-portal": {
+      "description": "是否从页面子树中脱离出来，用于解决各种 fixed 失效问题，微信基础库 >= 2.25.2 ",
+      "description_zh": "是否从页面子树中脱离出来，用于解决各种 fixed 失效问题，微信基础库 >= 2.25.2 ",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": "v1.11.3"
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/share-sheet",
+  "link_zh": "https://vant.pro/vant-weapp/#/share-sheet",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "title",
+      "description": "自定义顶部标题",
+      "description_zh": "自定义顶部标题"
+    },
+    {
+      "name": "description",
+      "description": "自定义描述文字",
+      "description_zh": "自定义描述文字"
+    }
+  ],
+  "suggestions": [],
+  "filename": "ShareSheet"
+}

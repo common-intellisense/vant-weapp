@@ -1,0 +1,119 @@
+{
+  "name": "VanCheckbox",
+  "props": {
+    "name": {
+      "description": "标识 Checkbox 名称",
+      "description_zh": "标识 Checkbox 名称",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "shape": {
+      "description": "形状，可选值为 round square",
+      "description_zh": "形状，可选值为 round square",
+      "default": "round",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "value": {
+      "description": "是否为选中状态",
+      "description_zh": "是否为选中状态",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "disabled": {
+      "description": "是否禁用单选框",
+      "description_zh": "是否禁用单选框",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "label-disabled": {
+      "description": "是否禁用单选框内容点击",
+      "description_zh": "是否禁用单选框内容点击",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "label-position": {
+      "description": "文本位置，可选值为 left",
+      "description_zh": "文本位置，可选值为 left",
+      "default": "right",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "use-icon-slot": {
+      "description": "是否使用 icon slot",
+      "description_zh": "是否使用 icon slot",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "checked-color": {
+      "description": "选中状态颜色",
+      "description_zh": "选中状态颜色",
+      "default": "#1989fa",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "icon-size": {
+      "description": "icon 大小",
+      "description_zh": "icon 大小",
+      "default": "20px",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "bind:change": {
+      "description": "当绑定值变化时触发的事件",
+      "description_zh": "当绑定值变化时触发的事件",
+      "default": "",
+      "value": "",
+      "type": "当前组件的值",
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/checkbox",
+  "link_zh": "https://vant.pro/vant-weapp/#/checkbox",
+  "typeDetail": {},
+  "methods": [
+    {
+      "name": "toggle",
+      "description": "-",
+      "description_zh": "-",
+      "params": ""
+    }
+  ],
+  "slots": [
+    {
+      "name": "default",
+      "description": "自定义文本",
+      "description_zh": "自定义文本"
+    },
+    {
+      "name": "icon",
+      "description": "自定义图标",
+      "description_zh": "自定义图标"
+    }
+  ],
+  "suggestions": [],
+  "filename": "Checkbox"
+}

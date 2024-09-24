@@ -1,0 +1,73 @@
+{
+  "name": "VanIcon",
+  "props": {
+    "name": {
+      "description": "图标名称或图片链接",
+      "description_zh": "图标名称或图片链接",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "dot": {
+      "description": "是否显示图标右上角小红点",
+      "description_zh": "是否显示图标右上角小红点",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "info": {
+      "description": "图标右上角文字提示",
+      "description_zh": "图标右上角文字提示",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "color": {
+      "description": "图标颜色",
+      "description_zh": "图标颜色",
+      "default": "inherit",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "size": {
+      "description": "图标大小，如 20px，2em，默认单位为px",
+      "description_zh": "图标大小，如 20px，2em，默认单位为px",
+      "default": "inherit",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": "v1.10.20"
+    },
+    "custom-style": {
+      "description": "自定义样式",
+      "description_zh": "自定义样式",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "class-prefix": {
+      "description": "类名前缀",
+      "description_zh": "类名前缀",
+      "default": "van-icon",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/icon",
+  "link_zh": "https://vant.pro/vant-weapp/#/icon",
+  "typeDetail": {},
+  "suggestions": [],
+  "filename": "Icon"
+}

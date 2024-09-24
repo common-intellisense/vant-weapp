@@ -1,0 +1,19 @@
+{
+  "name": "VanConfigProvider",
+  "props": {
+    "theme-vars": {
+      "description": "自定义主题变量",
+      "description_zh": "自定义主题变量",
+      "default": "-",
+      "value": "",
+      "type": "object",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/config-provider",
+  "link_zh": "https://vant.pro/vant-weapp/#/config-provider",
+  "typeDetail": {},
+  "suggestions": [],
+  "filename": "ConfigProvider"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "VanCellGroup",
+  "props": {
+    "title": {
+      "description": "分组标题",
+      "description_zh": "分组标题",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "inset": {
+      "description": "是否展示为圆角卡片风格",
+      "description_zh": "是否展示为圆角卡片风格",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": "v1.7.2"
+    },
+    "border": {
+      "description": "是否显示外边框",
+      "description_zh": "是否显示外边框",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/cell",
+  "link_zh": "https://vant.pro/vant-weapp/#/cell",
+  "typeDetail": {},
+  "suggestions": [
+    "van-cell"
+  ],
+  "filename": "CellGroup"
+}

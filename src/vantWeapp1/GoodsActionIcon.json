@@ -1,0 +1,188 @@
+{
+  "name": "VanGoodsActionIcon",
+  "props": {
+    "text": {
+      "description": "按钮文字",
+      "description_zh": "按钮文字",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "icon": {
+      "description": "图标类型，可选值见icon组件",
+      "description_zh": "图标类型，可选值见icon组件",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "info": {
+      "description": "图标右上角提示信息",
+      "description_zh": "图标右上角提示信息",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "color": {
+      "description": "图标颜色",
+      "description_zh": "图标颜色",
+      "default": "inherit",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": "v1.10.15"
+    },
+    "size": {
+      "description": "图标大小，如 20px，2em，默认单位为px",
+      "description_zh": "图标大小，如 20px，2em，默认单位为px",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "url": {
+      "description": "点击后跳转的链接地址",
+      "description_zh": "点击后跳转的链接地址",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "link-type": {
+      "description": "链接跳转类型，可选值为 redirectTo switchTab reLaunch",
+      "description_zh": "链接跳转类型，可选值为 redirectTo switchTab reLaunch",
+      "default": "navigateTo",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "id": {
+      "description": "标识符",
+      "description_zh": "标识符",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "disabled": {
+      "description": "是否禁用按钮",
+      "description_zh": "是否禁用按钮",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "loading": {
+      "description": "是否显示为加载状态",
+      "description_zh": "是否显示为加载状态",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "open-type": {
+      "description": "微信开放能力，具体支持可参考 微信官方文档",
+      "description_zh": "微信开放能力，具体支持可参考 微信官方文档",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "app-parameter": {
+      "description": "打开 APP 时，向 APP 传递的参数",
+      "description_zh": "打开 APP 时，向 APP 传递的参数",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "lang": {
+      "description": "指定返回用户信息的语言，zh_CN 简体中文，zh_TW 繁体中文，en 英文",
+      "description_zh": "指定返回用户信息的语言，zh_CN 简体中文，zh_TW 繁体中文，en 英文",
+      "default": "en",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "session-from": {
+      "description": "会话来源",
+      "description_zh": "会话来源",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "send-message-title": {
+      "description": "会话内消息卡片标题",
+      "description_zh": "会话内消息卡片标题",
+      "default": "当前标题",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "send-message-path": {
+      "description": "会话内消息卡片点击跳转小程序路径",
+      "description_zh": "会话内消息卡片点击跳转小程序路径",
+      "default": "当前分享路径",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "send-message-img": {
+      "description": "sendMessageImg",
+      "description_zh": "sendMessageImg",
+      "default": "截图",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "show-message-card": {
+      "description": "显示会话内消息卡片",
+      "description_zh": "显示会话内消息卡片",
+      "default": "false",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "class-prefix": {
+      "description": "类名前缀",
+      "description_zh": "类名前缀",
+      "default": "van-icon",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": "v1.10.1"
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/goods-action",
+  "link_zh": "https://vant.pro/vant-weapp/#/goods-action",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "icon",
+      "description": "自定义图标",
+      "description_zh": "自定义图标"
+    }
+  ],
+  "suggestions": [],
+  "filename": "GoodsActionIcon"
+}

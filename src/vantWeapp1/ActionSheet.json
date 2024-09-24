@@ -1,0 +1,118 @@
+{
+  "name": "VanActionSheet",
+  "props": {
+    "show": {
+      "description": "是否显示动作面板",
+      "description_zh": "是否显示动作面板",
+      "default": "-",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "actions": {
+      "description": "菜单选项",
+      "description_zh": "菜单选项",
+      "default": "[]",
+      "value": "",
+      "type": "Array",
+      "required": false,
+      "version": ""
+    },
+    "title": {
+      "description": "标题",
+      "description_zh": "标题",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "description": {
+      "description": "选项上方的描述信息",
+      "description_zh": "选项上方的描述信息",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": "v1.0.0"
+    },
+    "z-index": {
+      "description": "z-index 层级",
+      "description_zh": "z-index 层级",
+      "default": "100",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "cancel-text": {
+      "description": "取消按钮文字",
+      "description_zh": "取消按钮文字",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "overlay": {
+      "description": "是否显示遮罩层",
+      "description_zh": "是否显示遮罩层",
+      "default": "-",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "round": {
+      "description": "是否显示圆角",
+      "description_zh": "是否显示圆角",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": "v1.0.0"
+    },
+    "close-on-click-action": {
+      "description": "是否在点击选项后关闭",
+      "description_zh": "是否在点击选项后关闭",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "close-on-click-overlay": {
+      "description": "点击遮罩是否关闭菜单",
+      "description_zh": "点击遮罩是否关闭菜单",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "safe-area-inset-bottom": {
+      "description": "是否为 iPhoneX 留出底部安全距离",
+      "description_zh": "是否为 iPhoneX 留出底部安全距离",
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "root-portal": {
+      "description": "是否从页面子树中脱离出来，用于解决各种 fixed 失效问题，微信基础库 >= 2.25.2 ",
+      "description_zh": "是否从页面子树中脱离出来，用于解决各种 fixed 失效问题，微信基础库 >= 2.25.2 ",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": "v1.11.3"
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/action-sheet",
+  "link_zh": "https://vant.pro/vant-weapp/#/action-sheet",
+  "typeDetail": {},
+  "suggestions": [],
+  "filename": "ActionSheet"
+}

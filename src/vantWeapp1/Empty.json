@@ -1,0 +1,45 @@
+{
+  "name": "VanEmpty",
+  "props": {
+    "image": {
+      "description": "图片类型，可选值为 error network search，支持传入图片 URL",
+      "description_zh": "图片类型，可选值为 error network search，支持传入图片 URL",
+      "default": "default",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "description": {
+      "description": "图片下方的描述文字",
+      "description_zh": "图片下方的描述文字",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/empty",
+  "link_zh": "https://vant.pro/vant-weapp/#/empty",
+  "typeDetail": {},
+  "slots": [
+    {
+      "name": "default",
+      "description": "自定义底部内容",
+      "description_zh": "自定义底部内容"
+    },
+    {
+      "name": "image",
+      "description": "自定义图标",
+      "description_zh": "自定义图标"
+    },
+    {
+      "name": "description",
+      "description": "自定义描述文字",
+      "description_zh": "自定义描述文字"
+    }
+  ],
+  "suggestions": [],
+  "filename": "Empty"
+}

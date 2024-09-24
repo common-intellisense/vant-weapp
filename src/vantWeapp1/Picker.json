@@ -1,0 +1,171 @@
+{
+  "name": "VanPicker",
+  "props": {
+    "columns": {
+      "description": "对象数组，配置每一列显示的数据",
+      "description_zh": "对象数组，配置每一列显示的数据",
+      "default": "[]",
+      "value": "",
+      "type": "Array",
+      "required": false,
+      "version": ""
+    },
+    "show-toolbar": {
+      "description": "是否显示顶部栏",
+      "description_zh": "是否显示顶部栏",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "toolbar-position": {
+      "description": "顶部栏位置，可选值为bottom",
+      "description_zh": "顶部栏位置，可选值为bottom",
+      "default": "top",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "title": {
+      "description": "顶部栏标题",
+      "description_zh": "顶部栏标题",
+      "default": "''",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "loading": {
+      "description": "是否显示加载状态",
+      "description_zh": "是否显示加载状态",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "value-key": {
+      "description": "选项对象中，文字对应的 key",
+      "description_zh": "选项对象中，文字对应的 key",
+      "default": "text",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "item-height": {
+      "description": "选项高度",
+      "description_zh": "选项高度",
+      "default": "44",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "confirm-button-text": {
+      "description": "确认按钮文字",
+      "description_zh": "确认按钮文字",
+      "default": "确认",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "cancel-button-text": {
+      "description": "取消按钮文字",
+      "description_zh": "取消按钮文字",
+      "default": "取消",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "visible-item-count": {
+      "description": "可见的选项个数",
+      "description_zh": "可见的选项个数",
+      "default": "6",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    },
+    "default-index": {
+      "description": "单列选择器的默认选中项索引，多列选择器请参考下方的 Columns 配置",
+      "description_zh": "单列选择器的默认选中项索引，多列选择器请参考下方的 Columns 配置",
+      "default": "0",
+      "value": "",
+      "type": "number",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/picker",
+  "link_zh": "https://vant.pro/vant-weapp/#/picker",
+  "typeDetail": {},
+  "methods": [
+    {
+      "name": "getValues",
+      "description": "-",
+      "description_zh": "-",
+      "params": ""
+    },
+    {
+      "name": "setValues",
+      "description": "values",
+      "description_zh": "values",
+      "params": ""
+    },
+    {
+      "name": "getIndexes",
+      "description": "-",
+      "description_zh": "-",
+      "params": ""
+    },
+    {
+      "name": "setIndexes",
+      "description": "indexes",
+      "description_zh": "indexes",
+      "params": ""
+    },
+    {
+      "name": "getColumnValue",
+      "description": "columnIndex",
+      "description_zh": "columnIndex",
+      "params": ""
+    },
+    {
+      "name": "setColumnValue",
+      "description": "columnIndex, value",
+      "description_zh": "columnIndex, value",
+      "params": ""
+    },
+    {
+      "name": "getColumnIndex",
+      "description": "columnIndex",
+      "description_zh": "columnIndex",
+      "params": ""
+    },
+    {
+      "name": "setColumnIndex",
+      "description": "columnIndex, optionIndex",
+      "description_zh": "columnIndex, optionIndex",
+      "params": ""
+    },
+    {
+      "name": "getColumnValues",
+      "description": "columnIndex",
+      "description_zh": "columnIndex",
+      "params": ""
+    },
+    {
+      "name": "setColumnValues",
+      "description": "columnIndex, values",
+      "description_zh": "columnIndex, values",
+      "params": ""
+    }
+  ],
+  "suggestions": [],
+  "filename": "Picker"
+}

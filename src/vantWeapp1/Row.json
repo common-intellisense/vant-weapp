@@ -1,0 +1,21 @@
+{
+  "name": "VanRow",
+  "props": {
+    "gutter": {
+      "description": "列元素之间的间距（单位为 px）",
+      "description_zh": "列元素之间的间距（单位为 px）",
+      "default": "-",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/col",
+  "link_zh": "https://vant.pro/vant-weapp/#/col",
+  "typeDetail": {},
+  "suggestions": [
+    "van-col"
+  ],
+  "filename": "Row"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "VanRadio",
+  "props": {
+    "name": {
+      "description": "标识符",
+      "description_zh": "标识符",
+      "default": "-",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "shape": {
+      "description": "形状，可选值为 square",
+      "description_zh": "形状，可选值为 square",
+      "default": "round",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "disabled": {
+      "description": "是否为禁用状态",
+      "description_zh": "是否为禁用状态",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "label-disabled": {
+      "description": "是否禁用文本内容点击",
+      "description_zh": "是否禁用文本内容点击",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "label-position": {
+      "description": "文本位置，可选值为 left",
+      "description_zh": "文本位置，可选值为 left",
+      "default": "right",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "icon-size": {
+      "description": "图标大小，默认单位为px",
+      "description_zh": "图标大小，默认单位为px",
+      "default": "20px",
+      "value": "",
+      "type": "string | number",
+      "required": false,
+      "version": ""
+    },
+    "checked-color": {
+      "description": "选中状态颜色",
+      "description_zh": "选中状态颜色",
+      "default": "#1989fa",
+      "value": "",
+      "type": "string",
+      "required": false,
+      "version": ""
+    },
+    "use-icon-slot": {
+      "description": "是否使用 icon 插槽",
+      "description_zh": "是否使用 icon 插槽",
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "required": false,
+      "version": ""
+    },
+    "bind:change": {
+      "description": "当绑定值变化时触发的事件",
+      "description_zh": "当绑定值变化时触发的事件",
+      "default": "",
+      "value": "",
+      "type": "当前选中项的 name",
+      "version": ""
+    }
+  },
+  "link": "https://vant.pro/vant-weapp/#/radio",
+  "link_zh": "https://vant.pro/vant-weapp/#/radio",
+  "typeDetail": {},
+  "suggestions": [],
+  "filename": "Radio"
+}
