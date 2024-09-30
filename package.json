@@ -7,12 +7,12 @@
   "author": "Simon He",
   "license": "MIT",
   "funding": "https://github.com/sponsors/Simon-He95",
-  "homepage": "https://github.com/common-intellisense/vant-weapp1#readme",
+  "homepage": "https://github.com/common-intellisense/vant-weapp#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/common-intellisense/vant-weapp1.git"
+    "url": "git+https://github.com/common-intellisense/vant-weapp.git"
   },
-  "bugs": "https://github.com/common-intellisense/vant-weapp1/issues",
+  "bugs": "https://github.com/common-intellisense/vant-weapp/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
